@@ -4,5 +4,31 @@
  "title": "Implicit-Discourse-Relation-Classification-For-Nigerian-Pidg",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8427ecaf-5d06-4b67-b1eb-c2fb4e728f52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8427ecaf-5d06-4b67-b1eb-c2fb4e728f52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "implicit discourse relation classification",
+    "low-resource languages",
+    "Nigerian Pidgin",
+    "annotation projection",
+    "DiscOPrompt",
+    "cross-lingual transfer",
+    "synthetic corpus"
+   ],
+   "field": "低资源话语解析",
+   "innovations": [
+    "首次系统比较零样本迁移与合成数据微调两种路径用于NP隐性话语关系分类",
+    "提出论点独立翻译(AB)与关系整体翻译(RB)两种标注投影策略并实证AB更优",
+    "首次将Discourse Relation Projection方法扩展至非洲语言NP的隐性关系分类"
+   ],
+   "benchmarks": [
+    "DiscoNaija (Scholman et al. 2024)",
+    "English PDTB (via projection)"
+   ]
+  }
+ }
 }

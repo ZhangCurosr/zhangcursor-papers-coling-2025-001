@@ -4,5 +4,34 @@
  "title": "Efficient-Tool-Use-with-Chain-of-Abstraction-Reasoning",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2d5cc461-0fd5-4d37-9215-e9000ba2cf2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2d5cc461-0fd5-4d37-9215-e9000ba2cf2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:30:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Abstraction",
+    "tool-augmented LLM",
+    "multi-step reasoning",
+    "tool use planning",
+    "reasoning efficiency"
+   ],
+   "field": "大语言模型推理与工具使用",
+   "innovations": [
+    "提出 CoA 方法，通过抽象占位符解耦通用推理与领域知识获取",
+    "设计基于开源自回归模型的数据重写流水线，无需闭源模型蒸馏",
+    "实现推理与工具调用的跨样本并行化架构，提升推理效率约 1.4×"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "ASDiv",
+    "HotpotQA",
+    "SVAMP",
+    "MAWPS",
+    "NaturalQuestions",
+    "TriviaQA"
+   ]
+  }
+ }
 }

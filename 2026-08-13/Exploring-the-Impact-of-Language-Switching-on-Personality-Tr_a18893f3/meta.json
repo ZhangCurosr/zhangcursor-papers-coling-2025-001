@@ -4,5 +4,33 @@
  "title": "Exploring-the-Impact-of-Language-Switching-on-Personality-Tr",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:11:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4159a039-2d1f-41c7-9363-99f3b4f00b44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4159a039-2d1f-41c7-9363-99f3b4f00b44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:31:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言人格测评",
+    "文化框架转换",
+    "LLM人格漂移",
+    "跨文化AI评估",
+    "语言切换效应",
+    "EPQR-A",
+    "GPT-4o",
+    "文化刻板印象"
+   ],
+   "field": "多语言大语言模型评估与文化偏差",
+   "innovations": [
+    "首次将CFS理论应用于LLM人格测评，系统检验语言切换对人格维度的影响",
+    "通过官方翻译版vs机器翻译版对照设计，分离语言切换效应与翻译质量效应",
+    "揭示LLM在英语国家角色扮演中依赖文化刻板印象并复现人类跨文化人格数据"
+   ],
+   "benchmarks": [
+    "EPQR-A",
+    "Lynn & Martin (1995) 37国EPQ数据",
+    "Allik et al. (2017) 76样本NEO PI-R数据"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "HyperIDP-Customizing-Temporal-Hypergraph-Neural-Networks-for",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b66ed012-c029-42c8-b3bf-7af154358452.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b66ed012-c029-42c8-b3bf-7af154358452.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "信息扩散预测",
+    "超图神经网络",
+    "多尺度预测",
+    "神经架构搜索",
+    "协作-对抗损失",
+    "时序超图"
+   ],
+   "field": "信息扩散与社交网络分析",
+   "innovations": [
+    "提出时序超图联合建模宏观规模与微观用户扩散预测",
+    "设计面向超图的差异化工具化 NAS 搜索空间",
+    "引入协作-对抗损失平衡多任务共享与特异性表示"
+   ],
+   "benchmarks": [
+    "Christianity",
+    "Android",
+    "Douban"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Acquiring-Bidirectionality-via-Large-and-Small-Language-Mode",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dfef34f3-e828-4f1d-bec7-7e1ba0ab62ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dfef34f3-e828-4f1d-bec7-7e1ba0ab62ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:29:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "命名实体识别",
+    "双向语言模型",
+    "单向语言模型",
+    "少样本学习",
+    "Token分类",
+    "反向语言模型"
+   ],
+   "field": "token级序列标注",
+   "innovations": [
+    "通过拼接前向与反向LM表示实现伪双向性，无需微调大模型本身",
+    "提出异构配置策略（大前向+小反向）兼顾性能与效率",
+    "在少样本和罕见域场景下显著超越单向UniLM并优于BERT"
+   ],
+   "benchmarks": [
+    "CoNLL-2003",
+    "Few-NERD"
+   ]
+  }
+ }
 }

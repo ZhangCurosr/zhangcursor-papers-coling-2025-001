@@ -4,5 +4,31 @@
  "title": "Improving-Explainable-Fact-Checking-with-Claim-Evidence-Corr",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ab912113-464f-4eff-9ace-7923c1ed89de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ab912113-464f-4eff-9ace-7923c1ed89de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "explainable fact-checking",
+    "claim-evidence correlation",
+    "large language models",
+    "CorFEVER",
+    "FEVER",
+    "LLM reasoning"
+   ],
+   "field": "可解释自然语言处理",
+   "innovations": [
+    "提出两阶段相关性推理框架CorXFact，显式建模声明-证据相关性以提升核查准确性与可解释性",
+    "构建CorFEVER测试集，同步评测相关性识别与核查性能，覆盖封闭域与现实世界场景",
+    "揭示无关证据对小型LLM的负面影响，并提供有效的证据过滤与多任务混合微调策略"
+   ],
+   "benchmarks": [
+    "FEVER",
+    "CorFEVER (closed-domain)",
+    "CorFEVER (real-world)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "From-Generalist-to-Specialist-A-Survey-of-Large-Language-Mod",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-13 07:12:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cc6497a-f6e8-449c-8de3-4cbd07da60f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8cc6497a-f6e8-449c-8de3-4cbd07da60f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:32:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "化学大语言模型",
+    "多模态对齐",
+    "指令微调",
+    "强化学习对齐",
+    "化学Agent",
+    "分子表征"
+   ],
+   "field": "科学大语言模型",
+   "innovations": [
+    "首次系统综述Transformer Decoder架构的化学LLM迁移方法",
+    "提出领域知识-多模态-工具三层次挑战框架",
+    "全面梳理五类化学模态对齐技术与Agent工具集成方案"
+   ],
+   "benchmarks": [
+    "SciKnowEval",
+    "ChemLLMBench",
+    "MassSpecGym",
+    "MolPuzzles",
+    "SciEval",
+    "ScholarChemQA"
+   ]
+  }
+ }
 }

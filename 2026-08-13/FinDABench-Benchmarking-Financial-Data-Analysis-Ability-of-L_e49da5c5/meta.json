@@ -4,5 +4,29 @@
  "title": "FinDABench-Benchmarking-Financial-Data-Analysis-Ability-of-L",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/50d494f9-3452-4cb9-a2c7-90a6f4ad9286.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/50d494f9-3452-4cb9-a2c7-90a6f4ad9286.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:32:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "金融数据分析",
+    "大语言模型评测",
+    "benchmark",
+    "财务指标计算",
+    "SQL生成",
+    "财务报告解读"
+   ],
+   "field": "金融NLP与大模型评测",
+   "innovations": [
+    "提出FinDABench首个面向金融数据分析能力的三维度六任务基准",
+    "构建基于证监会处罚公告的财务造假检测子任务",
+    "设计多轮交互财务指标计算与多视角SQL生成任务"
+   ],
+   "benchmarks": [
+    "FinDABench"
+   ]
+  }
+ }
 }

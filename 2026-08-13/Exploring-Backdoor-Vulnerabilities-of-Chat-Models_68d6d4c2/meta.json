@@ -4,5 +4,34 @@
  "title": "Exploring-Backdoor-Vulnerabilities-of-Chat-Models",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/002ab80a-78a2-4a2d-8fcf-a52560fee359.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/002ab80a-78a2-4a2d-8fcf-a52560fee359.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:31:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Backdoor Attack",
+    "Chat Models",
+    "Large Language Models",
+    "Multi-turn Interaction",
+    "Trigger Distribution",
+    "Model Safety",
+    "Data Poisoning"
+   ],
+   "field": "LLM安全与对齐",
+   "innovations": [
+    "首次提出面向多轮对话聊天模型的分布式触发器后门攻击框架",
+    "利用多轮输入空间笛卡尔积特性实现更隐蔽、抗重新对齐的后门注入"
+   ],
+   "benchmarks": [
+    "UltraChat_200K",
+    "HuggingFaceH4 2023",
+    "HH-RLHF",
+    "TinyLlama-Chat-1.1B",
+    "Vicuna-7B",
+    "Llama-3.1-8B-Instruct"
+   ]
+  }
+ }
 }

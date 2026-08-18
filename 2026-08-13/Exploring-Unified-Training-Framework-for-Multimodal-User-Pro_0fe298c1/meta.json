@@ -4,5 +4,10 @@
  "title": "Exploring-Unified-Training-Framework-for-Multimodal-User-Pro",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db51ccf2-11ff-4216-a665-a5db3cc8b3e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/db51ccf2-11ff-4216-a665-a5db3cc8b3e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:31:45",
+  "chunks": 1
+ }
 }

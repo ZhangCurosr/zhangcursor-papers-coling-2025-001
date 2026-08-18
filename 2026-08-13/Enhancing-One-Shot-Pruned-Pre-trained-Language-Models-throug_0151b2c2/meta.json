@@ -4,5 +4,30 @@
  "title": "Enhancing-One-Shot-Pruned-Pre-trained-Language-Models-throug",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a53a4eb1-84ce-497f-a6e1-d1e0a3889344.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a53a4eb1-84ce-497f-a6e1-d1e0a3889344.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:30:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型剪枝",
+    "预训练语言模型",
+    "一次性剪枝",
+    "稀疏正则化",
+    "权重分布优化",
+    "后训练压缩"
+   ],
+   "field": "语言模型压缩与高效推理",
+   "innovations": [
+    "提出三阶段 Sparse-Dense-Sparse 后训练剪枝框架",
+    "设计融合残差稀疏先验、数据正则化与权重正则化的多维稀疏正则化策略",
+    "引入基于 absmin 的软稀疏掩码进行二次剪枝权重调整"
+   ],
+   "benchmarks": [
+    "Raw-Wikitext2 Perplexity",
+    "Zero-shot COPA/Lambada/OpenBookQA/PIQA/RTE/StoryCloze/Winogrande"
+   ]
+  }
+ }
 }

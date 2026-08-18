@@ -4,5 +4,35 @@
  "title": "Graph-Representation-Learning-in-Hyperbolic-Space-via-Dual-M",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a07b1c93-61e1-4fba-a9ff-6723243ea503.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a07b1c93-61e1-4fba-a9ff-6723243ea503.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hyperbolic Space",
+    "Graph Representation Learning",
+    "Dual-Masking",
+    "Self-Supervised Learning",
+    "Link Prediction",
+    "Node Classification",
+    "Lorentz Model"
+   ],
+   "field": "双曲图表示学习",
+   "innovations": [
+    "首次将节点‑边双掩码机制引入双曲空间图表示学习",
+    "提出双曲结构自注意力编码器，直接基于双曲距离聚合节点表示",
+    "设计缩放余弦误差与 Fermi‑Dirac 解码器联合优化节点特征与结构重建"
+   ],
+   "benchmarks": [
+    "PPI",
+    "BlogCatalog",
+    "Flickr",
+    "PubMed",
+    "WikiCS",
+    "CiteSeer"
+   ]
+  }
+ }
 }

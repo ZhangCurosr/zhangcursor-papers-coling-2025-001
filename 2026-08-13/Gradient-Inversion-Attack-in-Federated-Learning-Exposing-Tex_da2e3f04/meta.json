@@ -4,5 +4,30 @@
  "title": "Gradient-Inversion-Attack-in-Federated-Learning-Exposing-Tex",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/014a1213-76d7-47a2-b9fb-f7cffefe4e7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/014a1213-76d7-47a2-b9fb-f7cffefe4e7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "梯度反转攻击",
+    "联邦学习",
+    "文本隐私",
+    "离散优化",
+    "数据重建"
+   ],
+   "field": "联邦学习隐私安全",
+   "innovations": [
+    "首次直接在文本空间进行离散优化实现精确重建",
+    "证明全连接层梯度已足够指导文本重建",
+    "两阶段优化算法结合全局探索与局部微调"
+   ],
+   "benchmarks": [
+    "CoLA",
+    "SST-2",
+    "Rotten Tomatoes"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "From-Form-to-Meaning-The-Case-of-Particles-within-the-Prague",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aabc54a9-c991-4aaf-9de9-1c80823c55c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/aabc54a9-c991-4aaf-9de9-1c80823c55c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:32:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prague Dependency Treebank",
+    "multi-layer annotation",
+    "particles",
+    "tectogrammatical layer",
+    "conditional entropy",
+    "annotation consistency",
+    "semantic-pragmatic annotation"
+   ],
+   "field": "计算语言学/语料库标注",
+   "innovations": [
+    "以m/a/t多层互联标注刻画多义粒子，提升跨层一致性",
+    "引入条件熵量化标注规范化收益",
+    "从形式到意义双向追踪的多层复核机制"
+   ],
+   "benchmarks": [
+    "PDT-C 1.0",
+    "PDT-C 2.0"
+   ]
+  }
+ }
 }

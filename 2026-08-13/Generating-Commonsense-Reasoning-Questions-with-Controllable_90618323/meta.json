@@ -4,5 +4,29 @@
  "title": "Generating-Commonsense-Reasoning-Questions-with-Controllable",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:11:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/47661e7c-974a-4cdc-b936-8b8af54b2fb8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/47661e7c-974a-4cdc-b936-8b8af54b2fb8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Question Generation",
+    "Commonsense Reasoning",
+    "Controllable Complexity",
+    "Multi-step Composition",
+    "Chain-of-Thought Prompting",
+    "Voting Verifier"
+   ],
+   "field": "自然语言生成与推理",
+   "innovations": [
+    "提出自底向上分步结构组合框架实现可控复杂度常识推理问题生成",
+    "设计基于LLM提示的常识知识检索与投票验证器联合优化机制"
+   ],
+   "benchmarks": [
+    "Cosmos QA",
+    "MCScript 2.0"
+   ]
+  }
+ }
 }

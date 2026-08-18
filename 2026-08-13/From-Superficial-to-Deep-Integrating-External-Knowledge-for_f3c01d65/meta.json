@@ -4,5 +4,28 @@
  "title": "From-Superficial-to-Deep-Integrating-External-Knowledge-for",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-13 14:55:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a7d9a3b-f36c-4aa2-8838-79ef8474104a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9a7d9a3b-f36c-4aa2-8838-79ef8474104a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:32:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后续问题生成",
+    "知识图谱",
+    "大语言模型",
+    "外部知识增强",
+    "对话系统"
+   ],
+   "field": "自然语言生成-问题生成",
+   "innovations": [
+    "提出Recognition-Selection-Fusion三阶段外部知识增强框架，通过在线KG构建和知识融合续写生成信息更丰富的后续问题",
+    "设计双维节点选择策略（PageRank重要性+BERT语义相似度）从KG中选择最优外部知识节点",
+    "创新知识融合操作：让LLM基于上下文续写Wiki知识，实现内外部知识的深度融合"
+   ],
+   "benchmarks": [
+    "FOLLOWUPQG"
+   ]
+  }
+ }
 }

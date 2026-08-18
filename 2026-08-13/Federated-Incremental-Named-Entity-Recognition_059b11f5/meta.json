@@ -4,5 +4,10 @@
  "title": "Federated-Incremental-Named-Entity-Recognition",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/70db6302-9f54-484f-b3d5-b253cfed1ca0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/70db6302-9f54-484f-b3d5-b253cfed1ca0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:32:34",
+  "chunks": 1
+ }
 }

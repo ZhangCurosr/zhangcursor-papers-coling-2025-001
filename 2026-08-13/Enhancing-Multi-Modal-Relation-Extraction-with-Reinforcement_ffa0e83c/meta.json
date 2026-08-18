@@ -4,5 +4,32 @@
  "title": "Enhancing-Multi-Modal-Relation-Extraction-with-Reinforcement",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63221706-1f81-4752-ac95-26d18b41bda6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63221706-1f81-4752-ac95-26d18b41bda6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:31:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态关系抽取",
+    "强化学习",
+    "图扩散",
+    "跨模态图",
+    "可解释AI",
+    "场景图"
+   ],
+   "field": "多模态信息抽取",
+   "innovations": [
+    "RL引导的粗粒度图结构动态调整与细粒度扩散权重优化两级框架",
+    "准确率与复杂度兼顾的可解释奖励函数设计"
+   ],
+   "benchmarks": [
+    "MRE",
+    "MORE",
+    "MEGA",
+    "MKGFormer",
+    "MOREformer"
+   ]
+  }
+ }
 }

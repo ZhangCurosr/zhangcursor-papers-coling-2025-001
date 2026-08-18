@@ -4,5 +4,32 @@
  "title": "Adapters-Selector-Cross-domains-and-Multi-tasks-LoRA-Modules",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a6892822-ce56-41eb-a9e7-bd79c415e288.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a6892822-ce56-41eb-a9e7-bd79c415e288.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:29:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PEFT",
+    "LoRA",
+    "多任务学习",
+    "跨领域适配",
+    "Adapter",
+    "Selector"
+   ],
+   "field": "大语言模型高效微调",
+   "innovations": [
+    "提出解耦的Adapter-Selector框架实现跨领域多任务动态路由",
+    "基于Kmeans的LLM Embedding向量数据选择方法",
+    "支持Add/Balance/Delete的轻量级Selector在线更新机制"
+   ],
+   "benchmarks": [
+    "MedNLP",
+    "BioInstruct",
+    "Fin-GPT",
+    "Legalbench"
+   ]
+  }
+ }
 }

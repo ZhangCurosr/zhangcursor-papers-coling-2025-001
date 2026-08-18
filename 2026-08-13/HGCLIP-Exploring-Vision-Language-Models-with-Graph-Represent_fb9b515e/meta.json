@@ -4,5 +4,10 @@
  "title": "HGCLIP-Exploring-Vision-Language-Models-with-Graph-Represent",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dcc2b5b1-7050-4561-9dce-1f8c0bbe4cf8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dcc2b5b1-7050-4561-9dce-1f8c0bbe4cf8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:38",
+  "chunks": 1
+ }
 }

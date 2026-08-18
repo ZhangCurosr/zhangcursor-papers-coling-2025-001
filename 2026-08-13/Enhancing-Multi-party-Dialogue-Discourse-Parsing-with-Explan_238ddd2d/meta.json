@@ -4,5 +4,30 @@
  "title": "Enhancing-Multi-party-Dialogue-Discourse-Parsing-with-Explan",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/23190003-b425-4b24-9d4b-1737bada0a8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/23190003-b425-4b24-9d4b-1737bada0a8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:30:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多方对话",
+    "语篇解析",
+    "大语言模型",
+    "解释生成",
+    "对比学习",
+    "教师学生蒸馏"
+   ],
+   "field": "对话语篇分析",
+   "innovations": [
+    "提出 EGM+SPM+CLDM 三模块框架，将 LLM 生成的解释性知识通过教师-学生蒸馏引入语篇解析",
+    "设计'全局上下文+局部标签'提示策略，有效缓解 LLM 在复杂对话中的信息过载问题",
+    "利用模型自身预测错误构建正负对比样本生成对比解释，放大关键推理信息"
+   ],
+   "benchmarks": [
+    "STAC",
+    "Molweni"
+   ]
+  }
+ }
 }

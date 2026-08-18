@@ -4,5 +4,30 @@
  "title": "Improving-Automatic-Grammatical-Error-Annotation-for-Chinese",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c72aa4d-7ac9-467f-b671-70c90c637e7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c72aa4d-7ac9-467f-b671-70c90c637e7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grammatical Error Correction",
+    "Chinese NLP",
+    "Error Annotation",
+    "Linguistic Typology",
+    "ChERRANT",
+    "L1/L2 Contrastive Analysis"
+   ],
+   "field": "中文语法错误校正",
+   "innovations": [
+    "提出面向中文的语言学驱动细粒度错误类型体系（拼音相似/字形相似/多维度相似/的字专类）",
+    "重新实现中文错误标注工具，引入stanza并扩展细粒度标签至R:PINYIN/R:SHAPE/R:MULTI/R:DE等",
+    "揭示L1与L2学习者拼音/字形混淆错误的定量差异（L2比例是L1的2倍以上）"
+   ],
+   "benchmarks": [
+    "FCGEC",
+    "MuCGEC"
+   ]
+  }
+ }
 }

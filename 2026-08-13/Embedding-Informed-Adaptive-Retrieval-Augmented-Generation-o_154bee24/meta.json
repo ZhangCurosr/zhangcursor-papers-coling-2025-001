@@ -4,5 +4,28 @@
  "title": "Embedding-Informed-Adaptive-Retrieval-Augmented-Generation-o",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:10:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b2d16c8-4256-4fd1-b21d-0269d5851e3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b2d16c8-4256-4fd1-b21d-0269d5851e3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:30:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Adaptive RAG",
+    "Embedding",
+    "Retrieval Decision",
+    "LLM Knowledge Boundary",
+    "Token Embedding"
+   ],
+   "field": "检索增强生成",
+   "innovations": [
+    "利用预训练token embeddings判断LLM知识边界以决定检索必要性",
+    "仅需第一层contextualized embedding实现高效轻量级检索决策"
+   ],
+   "benchmarks": [
+    "PopQA",
+    "TriviaQA"
+   ]
+  }
+ }
 }

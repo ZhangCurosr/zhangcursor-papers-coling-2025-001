@@ -4,5 +4,30 @@
  "title": "How-Well-Can-a-Long-Sequence-Model-Model-Long-Sequences-Comp",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/886433a3-6590-43d7-a948-9f468e057e72.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/886433a3-6590-43d7-a948-9f468e057e72.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:33:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文建模",
+    "状态空间模型",
+    "线性序列模型",
+    "needle-in-a-haystack",
+    "RULER基准",
+    "架构对比"
+   ],
+   "field": "长上下文语言模型评估",
+   "innovations": [
+    "系统比较SSM/Transformer/混合架构在统一设置下的长上下文表现",
+    "揭示跨架构的'丢失在中间'共性缺陷",
+    "发现外推能力高度依赖数据格式与信息位置"
+   ],
+   "benchmarks": [
+    "RULER",
+    "needle-in-a-haystack"
+   ]
+  }
+ }
 }

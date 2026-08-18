@@ -4,5 +4,30 @@
  "title": "ELITR-Bench-A-Meeting-Assistant-Benchmark-for-Long-Context-L",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a6b3d09-7d7c-4261-b18c-aa320425671e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3a6b3d09-7d7c-4261-b18c-aa320425671e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:29:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文语言模型",
+    "会议助手",
+    "ASR噪声鲁棒性",
+    "LLM评测基准",
+    "GPT-4-as-judge"
+   ],
+   "field": "长上下文语言模型评测",
+   "innovations": [
+    "提出首个面向会议助手场景的长上下文评测基准ELITR-Bench，包含真实ASR噪声转录与多级WER模拟",
+    "建立QA与多轮对话双设置评测框架，揭示LLaMA-2与新一代模型在多轮上下文累积中的性能差异",
+    "系统验证GPT-4 judge在10分制下仅能区分约三个质量等级，对LLM-as-judge细粒度评分提出质疑"
+   ],
+   "benchmarks": [
+    "ELITR-Bench",
+    "ELITR-Bench-QA",
+    "ELITR-Bench-Conv"
+   ]
+  }
+ }
 }

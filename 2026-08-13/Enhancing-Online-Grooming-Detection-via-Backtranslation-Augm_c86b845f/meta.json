@@ -4,5 +4,10 @@
  "title": "Enhancing-Online-Grooming-Detection-via-Backtranslation-Augm",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:11:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d694ec02-afdd-421e-9d4f-60e37cf9f272.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d694ec02-afdd-421e-9d4f-60e37cf9f272.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:31:05",
+  "chunks": 1
+ }
 }

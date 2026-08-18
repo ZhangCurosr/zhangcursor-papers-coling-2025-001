@@ -4,5 +4,33 @@
  "title": "InstructMol-Multi-Modal-Integration-for-Building-a-Versatile",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8fb8b210-0398-4b3d-aa17-8d5f38f50398.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8fb8b210-0398-4b3d-aa17-8d5f38f50398.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "分子图编码器",
+    "指令微调",
+    "药物发现",
+    "分子属性预测",
+    "化学反应预测",
+    "LoRA"
+   ],
+   "field": "分子人工智能与多模态学习",
+   "innovations": [
+    "两阶段指令调优范式（对齐预训练+任务微调）实现分子-文本高效模态对齐",
+    "选用预对齐MoleculeSTM图编码器+轻量线性投影器降低数据依赖",
+    "插件式LoRA适配器支持多任务灵活切换并保留通用对话能力"
+   ],
+   "benchmarks": [
+    "QM9",
+    "MoleculeNet (BACE/BBBP/HIV)",
+    "ChEBI-20",
+    "USPTO/USPTO_500MT"
+   ]
+  }
+ }
 }

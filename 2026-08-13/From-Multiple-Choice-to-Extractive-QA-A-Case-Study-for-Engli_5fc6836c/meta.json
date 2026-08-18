@@ -4,5 +4,31 @@
  "title": "From-Multiple-Choice-to-Extractive-QA-A-Case-Study-for-Engli",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:11:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cd503f01-c24e-4ef4-af57-176b04689d2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cd503f01-c24e-4ef4-af57-176b04689d2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:32:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multiple-choice to extractive QA",
+    "dataset repurposing",
+    "cross-lingual QA",
+    "Arabic dialects",
+    "BELEBELE",
+    "low-resource NLP"
+   ],
+   "field": "多语言问答与低资源NLP",
+   "innovations": [
+    "首次系统研究MCQA到EQA的数据集转换方法，填补研究空白",
+    "提出基于平行数据的引导式跨语言标注框架，降低多语言标注成本",
+    "创建首个面向阿拉伯方言的并行EQA基准数据集，覆盖五种方言"
+   ],
+   "benchmarks": [
+    "SQuAD",
+    "BELEBELE-EQA",
+    "TyDi QA"
+   ]
+  }
+ }
 }

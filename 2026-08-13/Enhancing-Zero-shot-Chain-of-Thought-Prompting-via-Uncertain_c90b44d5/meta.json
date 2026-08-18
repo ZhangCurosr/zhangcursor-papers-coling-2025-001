@@ -4,5 +4,31 @@
  "title": "Enhancing-Zero-shot-Chain-of-Thought-Prompting-via-Uncertain",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:11:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f22d24b-de26-438c-9d64-b4cccc22e0d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f22d24b-de26-438c-9d64-b4cccc22e0d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:30:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Thought",
+    "Zero-shot Prompting",
+    "Uncertainty Estimation",
+    "Demonstration Selection",
+    "LLM Reasoning"
+   ],
+   "field": "大语言模型提示工程",
+   "innovations": [
+    "融合温度扰动、触发词变化和题目改写三种扰动估计LLM不确定性",
+    "基于不确定性均值和标准差定义多层次选择策略",
+    "发现不确定性-准确率负相关并用其自动选择最优策略"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "StrategyQA",
+    "Logical Fallacy",
+    "EPR"
+   ]
+  }
+ }
 }

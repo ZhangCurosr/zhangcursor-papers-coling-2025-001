@@ -4,5 +4,32 @@
  "title": "Explaining-Relationships-Among-Research-Papers",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/258fa0cb-acc3-4ec2-ab0f-fbe6a0487938.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/258fa0cb-acc3-4ec2-ab0f-fbe6a0487938.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:31:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "citation generation",
+    "literature review generation",
+    "LLM prompting",
+    "scientific document processing",
+    "academic writing",
+    "citation network features",
+    "faceted summary"
+   ],
+   "field": "学术文档生成与引用分析",
+   "innovations": [
+    "首次将自然语言引用网络特征（论文对关系、丰富型引用意图）与 main idea 大纲结合，通过 LLM 多阶段提示生成段落级文献综述",
+    "提出 CTS 增强重生成策略以提升细节",
+    "建立人类偏好与整合式写作风格的关联，并提出 ROUGE/reference-type 比例作为自动化代理指标"
+   ],
+   "benchmarks": [
+    "ROUGE-1/2/L",
+    "Expert Human Evaluation (8 dimensions, n=27)",
+    "Li et al. (2022) citation style annotation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Efficient-Solutions-For-An-Intriguing-Failure-of-LLMs-Long-C",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f938af7-270c-45bb-a36c-a51db5502089.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3f938af7-270c-45bb-a36c-a51db5502089.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:29:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文",
+    "LLM失效",
+    "提取式摘要",
+    "TextRank",
+    "输入优化",
+    "提示工程"
+   ],
+   "field": "大语言模型效率优化",
+   "innovations": [
+    "系统揭示LLM长序列处理退化现象并提出轻量级摘要解决方案",
+    "将TextRank与TF-IDF多样性选择结合用于实时输入压缩"
+   ],
+   "benchmarks": [
+    "GameSpot Reviews",
+    "20 Newsgroups",
+    "BBC News Archive"
+   ]
+  }
+ }
 }

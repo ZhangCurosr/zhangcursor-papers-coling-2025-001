@@ -4,5 +4,31 @@
  "title": "Enhancing-Multimodal-Named-Entity-Recognition-through-Adapti",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/be41b92f-0799-4830-ad22-2ab521de5841.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/be41b92f-0799-4830-ad22-2ab521de5841.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:30:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态命名实体识别",
+    "图文不匹配",
+    "自适应Mixup",
+    "文生图增强",
+    "三元组损失",
+    "混合高斯模型",
+    "跨模态匹配"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "首次将合成图像引入MNER任务以主动缓解图文不匹配问题",
+    "提出基于TL-GMM的自适应混合比例机制，实现样本级图文匹配质量评估",
+    "将噪声对应学习范式从无监督标签噪声迁移至跨模态不匹配场景"
+   ],
+   "benchmarks": [
+    "Twitter 2015",
+    "Twitter 2017"
+   ]
+  }
+ }
 }

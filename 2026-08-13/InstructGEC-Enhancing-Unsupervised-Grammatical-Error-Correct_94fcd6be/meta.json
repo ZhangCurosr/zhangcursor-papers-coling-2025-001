@@ -4,5 +4,32 @@
  "title": "InstructGEC-Enhancing-Unsupervised-Grammatical-Error-Correct",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85c51786-4b4c-4742-b7ab-8f5a589b8200.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85c51786-4b4c-4742-b7ab-8f5a589b8200.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:34:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grammatical Error Correction",
+    "unsupervised GEC",
+    "instruction tuning",
+    "copying phenomenon",
+    "consistency training",
+    "JS divergence"
+   ],
+   "field": "无监督语法错误纠正",
+   "innovations": [
+    "指令格式结合掩码策略缓解复制现象",
+    "以JS散度一致性损失桥接金指令与预测指令",
+    "将GED知识通过指令微调统一集成到Seq2Seq纠错模型"
+   ],
+   "benchmarks": [
+    "CoNLL-2014",
+    "BEA-2019",
+    "NLPCC2018",
+    "MuCGEC"
+   ]
+  }
+ }
 }
