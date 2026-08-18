@@ -4,5 +4,29 @@
  "title": "Collaborative-Document-Simplification-using-Multi-Agent-Syst",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd16c477-c6ba-4714-bd16-830f16d818d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd16c477-c6ba-4714-bd16-830f16d818d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本简化",
+    "文档级简化",
+    "多智能体系统",
+    "大语言模型",
+    "Prompt Engineering"
+   ],
+   "field": "文本简化与可读性",
+   "innovations": [
+    "提出 AgentSimp，首个将隐喻分析与术语解释同时引入文档简化的多智能体框架",
+    "系统对比管道式与同步通信策略、直接拼接与迭代拼接重建策略的四种组合",
+    "无需监督训练，基于 GPT-4 的 AgentSimp 在 Newsela 上 SARI 达 41.58，超越所有微调开源基线"
+   ],
+   "benchmarks": [
+    "Newsela",
+    "GuoFeng Webnovel"
+   ]
+  }
+ }
 }

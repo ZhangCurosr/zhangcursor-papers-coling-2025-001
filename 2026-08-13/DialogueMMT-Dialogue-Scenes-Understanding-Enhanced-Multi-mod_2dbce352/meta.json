@@ -4,5 +4,30 @@
  "title": "DialogueMMT-Dialogue-Scenes-Understanding-Enhanced-Multi-mod",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13ef680f-505c-4959-951f-9c457c059ec6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13ef680f-505c-4959-951f-9c457c059ec6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话情绪识别",
+    "多模态大模型",
+    "多任务指令微调",
+    "链式思维",
+    "视觉语言模型"
+   ],
+   "field": "多模态情感分析与对话理解",
+   "innovations": [
+    "首次将多模态大型视觉-语言模型引入ERC任务并进行跨数据集统一微调",
+    "提出多任务指令微调框架（ASD+FER+DDP辅助）增强对话场景理解",
+    "引入链式思维策略（先极性后情感）提升细粒度情感分类性能"
+   ],
+   "benchmarks": [
+    "MELD",
+    "EmoryNLP",
+    "IEMOCAP"
+   ]
+  }
+ }
 }

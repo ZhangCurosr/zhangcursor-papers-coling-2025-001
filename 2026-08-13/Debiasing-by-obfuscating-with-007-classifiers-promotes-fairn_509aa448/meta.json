@@ -4,5 +4,32 @@
  "title": "Debiasing-by-obfuscating-with-007-classifiers-promotes-fairn",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/22338162-4ec8-43a9-b4c4-5fe9f9f0ccc8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/22338162-4ec8-43a9-b4c4-5fe9f9f0ccc8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fairness",
+    "debiasing",
+    "text classification",
+    "false positive rate",
+    "data augmentation",
+    "obfuscation",
+    "toxicity detection"
+   ],
+   "field": "NLP 公平性与去偏",
+   "innovations": [
+    "以 FPR 动态判定社区并公平处理所有假阳性的多社区去偏框架",
+    "将文本混淆技术从对抗攻击转为去偏工具的预处理方法",
+    "提出并对所有社区无性能退化的严格公平性准则进行实证验证"
+   ],
+   "benchmarks": [
+    "DWMW17",
+    "FDCL18",
+    "HatEval19"
+   ]
+  }
+ }
 }

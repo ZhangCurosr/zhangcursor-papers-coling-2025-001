@@ -4,5 +4,32 @@
  "title": "Distilling-Rule-based-Knowledge-into-Large-Language-Models",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 07:10:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12463d61-a8a9-4c2d-885e-3fadc9a77a8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12463d61-a8a9-4c2d-885e-3fadc9a77a8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "规则蒸馏",
+    "学习规则范式",
+    "上下文学习",
+    "知识蒸馏",
+    "指令微调",
+    "LLM微调",
+    "泛化能力"
+   ],
+   "field": "大语言模型高效学习与知识编码",
+   "innovations": [
+    "提出规则蒸馏方法，通过教师模型的输出分布和隐藏状态将文本规则显式编码到LLM参数",
+    "设计两阶段增强策略，先微调教师模型提升规则理解再蒸馏，解决小模型上下文能力不足问题",
+    "构建算术/安全/情感三任务评测体系，证明规则学习范式在样本效率与泛化上优于示例学习"
+   ],
+   "benchmarks": [
+    "算术任务（自定义@@@运算）",
+    "安全任务（AdvBench+HH-RLHF越狱防御）",
+    "情感引导任务（基于self-instruct生成）"
+   ]
+  }
+ }
 }

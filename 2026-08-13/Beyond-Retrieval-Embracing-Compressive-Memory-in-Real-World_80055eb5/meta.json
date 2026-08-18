@@ -4,5 +4,29 @@
  "title": "Beyond-Retrieval-Embracing-Compressive-Memory-in-Real-World",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2c4f0582-b87b-47f0-b5e5-52250c42d949.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2c4f0582-b87b-47f0-b5e5-52250c42d949.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:00:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长期对话",
+    "压缩记忆",
+    "检索替代",
+    "DPO优化",
+    "中文对话数据集"
+   ],
+   "field": "开放域对话系统",
+   "innovations": [
+    "提出无检索的压缩记忆框架COMEDY，单模型端到端处理记忆提取-压缩-回应生成",
+    "构建最大中文长期对话数据集Dolphin（10万+样本）",
+    "设计自动DPO样本生成策略对齐记忆一致性"
+   ],
+   "benchmarks": [
+    "Dolphin测试集",
+    "Human Evaluation (Coherence/Consistency/Memorability/Engagingness/Humanness)"
+   ]
+  }
+ }
 }

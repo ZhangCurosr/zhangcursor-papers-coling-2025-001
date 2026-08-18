@@ -4,5 +4,34 @@
  "title": "A-Simple-Yet-Efficient-Instruction-Augmentation-Method-for-Z",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14d19da0-cc22-47cf-96a4-153bb037eda3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/14d19da0-cc22-47cf-96a4-153bb037eda3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "指令微调",
+    "情感分类",
+    "零样本学习",
+    "低资源NLP",
+    "参数高效微调",
+    "伪数据生成"
+   ],
+   "field": "情感分析与大语言模型",
+   "innovations": [
+    "基于情感形容词的零标注伪指令构建方法",
+    "四步词表筛选与否定增强策略",
+    "揭示概率偏移机制解释性能提升"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "Yelp",
+    "Amazon",
+    "IMDB",
+    "SemEval-14/15/16 ABSA",
+    "PhraseBank"
+   ]
+  }
+ }
 }

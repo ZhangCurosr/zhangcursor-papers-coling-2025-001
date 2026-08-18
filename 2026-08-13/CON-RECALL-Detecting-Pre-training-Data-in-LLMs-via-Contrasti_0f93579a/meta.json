@@ -4,5 +4,29 @@
  "title": "CON-RECALL-Detecting-Pre-training-Data-in-LLMs-via-Contrasti",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/edb3b38f-db13-428b-9331-b0d706171ac7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/edb3b38f-db13-428b-9331-b0d706171ac7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Membership Inference Attack",
+    "Contrastive Decoding",
+    "LLM Privacy",
+    "Pre-training Data Detection",
+    "WikiMIA"
+   ],
+   "field": "大语言模型隐私与安全",
+   "innovations": [
+    "首次将对比解码引入成员推断，利用成员与非成员前缀的非对称分布偏移",
+    "提出仅灰盒访问的高效评分公式，无需参考模型",
+    "提出基于外部LLM的历史事件补全成员数据近似策略"
+   ],
+   "benchmarks": [
+    "WikiMIA",
+    "MIMIR"
+   ]
+  }
+ }
 }

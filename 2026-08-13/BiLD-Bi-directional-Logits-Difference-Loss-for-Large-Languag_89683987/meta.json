@@ -4,5 +4,31 @@
  "title": "BiLD-Bi-directional-Logits-Difference-Loss-for-Large-Languag",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:10:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4ca4b367-5dee-4a3f-80fd-bee443e918b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4ca4b367-5dee-4a3f-80fd-bee443e918b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Distillation",
+    "Large Language Models",
+    "Logits Distillation",
+    "Model Compression",
+    "LLM Pruning"
+   ],
+   "field": "大语言模型压缩与蒸馏",
+   "innovations": [
+    "提出BiLD loss通过top-k截断和双向logits差值同时过滤长尾噪声和利用内部排序信息",
+    "发现LLM logits比视觉模型更具长尾分布特征，揭示排序信息对生成策略的关键作用"
+   ],
+   "benchmarks": [
+    "SuperGLUE",
+    "ARC",
+    "HellaSwag",
+    "PIQA",
+    "WinoGrande"
+   ]
+  }
+ }
 }

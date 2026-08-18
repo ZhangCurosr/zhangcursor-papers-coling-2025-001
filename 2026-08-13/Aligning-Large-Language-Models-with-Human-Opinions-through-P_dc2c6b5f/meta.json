@@ -4,5 +4,29 @@
  "title": "Aligning-Large-Language-Models-with-Human-Opinions-through-P",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec4ec5c2-4c4e-4101-83b4-660528524f5b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec4ec5c2-4c4e-4101-83b4-660528524f5b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persona alignment",
+    "opinion prediction",
+    "chain-of-opinion",
+    "VBN reasoning",
+    "LLM prompt engineering",
+    "personalized LLM"
+   ],
+   "field": "LLM对齐与个性化推理",
+   "innovations": [
+    "提出COO四步框架，区分显性人格过滤与隐性人格有用性排序，解决无关人格噪声问题",
+    "首次将VBN理论形式化为LLM结构化推理指令，提升意见预测的一致性与可解释性",
+    "将COO中间变量蒸馏为微调数据，使小模型（FlanT5-large/GPT-2）准确率最高提升23%"
+   ],
+   "benchmarks": [
+    "OpinionQA"
+   ]
+  }
+ }
 }

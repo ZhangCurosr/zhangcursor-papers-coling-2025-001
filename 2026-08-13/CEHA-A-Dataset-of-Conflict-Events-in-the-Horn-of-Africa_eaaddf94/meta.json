@@ -4,5 +4,30 @@
  "title": "CEHA-A-Dataset-of-Conflict-Events-in-the-Horn-of-Africa",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fef51045-0ae0-4398-b471-9d848516ccfd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fef51045-0ae0-4398-b471-9d848516ccfd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "冲突事件检测",
+    "低资源 NLP",
+    "非洲之角",
+    "事件类型分类",
+    "AI for Social Good",
+    "大型语言模型"
+   ],
+   "field": "社会计算与低资源 NLP",
+   "innovations": [
+    "首个非洲之角细粒度冲突事件类型标注数据集 CEHA",
+    "提出事件相关性+事件类型两阶段分类任务框架",
+    "系统评估 LLM 与监督模型在极端低资源冲突事件分类中的性能差异"
+   ],
+   "benchmarks": [
+    "Event-relevance Classification",
+    "Event-type Classification"
+   ]
+  }
+ }
 }

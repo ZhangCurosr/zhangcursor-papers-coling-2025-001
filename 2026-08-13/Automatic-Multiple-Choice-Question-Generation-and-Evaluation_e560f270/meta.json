@@ -4,5 +4,31 @@
  "title": "Automatic-Multiple-Choice-Question-Generation-and-Evaluation",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7bfc131-6a10-49b9-af10-9c8caa6a9363.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b7bfc131-6a10-49b9-af10-9c8caa6a9363.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:00:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多选题生成",
+    "LLM",
+    "提示工程",
+    "自动评估",
+    "高校决议",
+    "自我审查"
+   ],
+   "field": "自动问题生成与评估",
+   "innovations": [
+    "六维提示工程组合实现领域特定MCQ自动化生成",
+    "独立LLM评估系统实现五维标准化质量验证",
+    "构建首个高校决议领域人工验证MCQ数据集"
+   ],
+   "benchmarks": [
+    "手动验证MCQ数据集(400题)",
+    "高校决议数据集(43份/1020篇文章)",
+    "巴西劳动法实验数据集(50题)"
+   ]
+  }
+ }
 }

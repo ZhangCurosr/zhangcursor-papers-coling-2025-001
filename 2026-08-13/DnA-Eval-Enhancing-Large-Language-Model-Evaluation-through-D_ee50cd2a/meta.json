@@ -4,5 +4,33 @@
  "title": "DnA-Eval-Enhancing-Large-Language-Model-Evaluation-through-D",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65d49fea-4d3e-4237-9727-2104066c7767.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/65d49fea-4d3e-4237-9727-2104066c7767.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM-as-a-judge",
+    "meta-evaluation",
+    "decomposition and aggregation",
+    "evaluation rubric",
+    "Chain-of-Thought",
+    "external computation",
+    "aspect weighting"
+   ],
+   "field": "大语言模型评估与元评估",
+   "innovations": [
+    "将 LLM 评估流程形式化为可审计的分解与外部聚合两阶段协议，提升性能与可解释性",
+    "通过动态方面生成与上下文感知的权重分配缓解多维度评估中的锚定与聚合误差",
+    "在不微调、不新增数据的前提下实现跨闭源/开源模型的稳定性提升，最大相对提升 39.6%"
+   ],
+   "benchmarks": [
+    "FairEval",
+    "MT-Bench",
+    "LLMBar",
+    "InstruSum"
+   ]
+  }
+ }
 }

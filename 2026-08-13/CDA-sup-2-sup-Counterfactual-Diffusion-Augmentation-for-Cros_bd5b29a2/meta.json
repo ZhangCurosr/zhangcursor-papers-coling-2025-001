@@ -4,5 +4,31 @@
  "title": "CDA-sup-2-sup-Counterfactual-Diffusion-Augmentation-for-Cros",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4fb9e98-8cca-42f1-a058-7a1ffebba2d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e4fb9e98-8cca-42f1-a058-7a1ffebba2d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨域情感分析",
+    "扩散模型",
+    "数据增强",
+    "域适配",
+    "反事实生成",
+    "低资源NLP",
+    "分布迁移"
+   ],
+   "field": "跨域自然语言处理",
+   "innovations": [
+    "提出软吸收状态（SAS）桥接离散文本与连续扩散空间",
+    "通过MMD损失和无标注目标数据联合约束扩散生成分布迁移",
+    "使用DPM-Solver++加速文本扩散采样无需MBR解码"
+   ],
+   "benchmarks": [
+    "Amazon Reviews Cross-Domain SA",
+    "B→D/E/K, D→B/E/K, E→B/D/K, K→B/D/E"
+   ]
+  }
+ }
 }

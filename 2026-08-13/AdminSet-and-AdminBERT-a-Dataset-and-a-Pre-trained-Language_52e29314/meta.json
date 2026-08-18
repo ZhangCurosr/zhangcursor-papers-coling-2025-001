@@ -4,5 +4,29 @@
  "title": "AdminSet-and-AdminBERT-a-Dataset-and-a-Pre-trained-Language",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7ac92b61-7a63-44eb-974d-64e6de5b4763.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7ac92b61-7a63-44eb-974d-64e6de5b4763.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "French administrative texts",
+    "named entity recognition",
+    "pre-trained language model",
+    "domain adaptation",
+    "AdminBERT",
+    "OCR noise robustness"
+   ],
+   "field": "领域自适应预训练与低资源 NER",
+   "innovations": [
+    "首个法语行政领域 PLM AdminBERT，通过继续在非结构化噪声语料上预训练提升 NER 性能",
+    "发布 AdminSet/AdminSet-NER 数据集，填补法语行政文档大规模无标注/有标注资源空白"
+   ],
+   "benchmarks": [
+    "AdminSet-NER test set",
+    "WikiNER French subset"
+   ]
+  }
+ }
 }

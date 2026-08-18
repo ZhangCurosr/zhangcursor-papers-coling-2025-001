@@ -4,5 +4,31 @@
  "title": "E-Bench-Towards-Evaluating-the-Ease-of-Use-of-Large-Language",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:11:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f4350b6-8bc0-465e-ace4-10ad87dfd2a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f4350b6-8bc0-465e-ace4-10ad87dfd2a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:03:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM易用性",
+    "提示扰动",
+    "鲁棒性评估",
+    "同义变换",
+    "拼写攻击",
+    "E-Bench",
+    "AlpacaEval"
+   ],
+   "field": "大语言模型评估与鲁棒性",
+   "innovations": [
+    "提出易用性(ease-of-use)概念并构建E-Bench基准，系统评估LLM对真实用户表达变体的容忍度",
+    "设计四类扰动(改写/摘要/口语化+拼写攻击)模拟真实交互场景，填补对话场景易用性评估空白",
+    "揭示模型规模与易用性的非线性关系，发现同义扰动有缩放规律但拼写攻击无明确趋势"
+   ],
+   "benchmarks": [
+    "E-Bench",
+    "AlpacaEval"
+   ]
+  }
+ }
 }

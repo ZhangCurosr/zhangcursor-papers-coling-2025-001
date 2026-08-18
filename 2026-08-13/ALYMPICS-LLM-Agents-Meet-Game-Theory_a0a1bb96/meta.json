@@ -4,5 +4,32 @@
  "title": "ALYMPICS-LLM-Agents-Meet-Game-Theory",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e7ff6319-ffd6-40e1-a400-1214f4145308.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e7ff6319-ffd6-40e1-a400-1214f4145308.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "博弈论",
+    "多智能体",
+    "拍卖理论",
+    "策略推理",
+    "沙盒环境"
+   ],
+   "field": "多智能体博弈与策略推理",
+   "innovations": [
+    "提出Alympics框架实现LLM Agent驱动的博弈论实证研究",
+    "设计水资源分配挑战融合拍卖与动态博弈的多轮实验场景",
+    "通过人类主观评估验证LLM Agent策略行为的真实性与合理性"
+   ],
+   "benchmarks": [
+    "Water Allocation Challenge",
+    "RSR指标",
+    "拍卖效率ε",
+    "Human Subjective Evaluation"
+   ]
+  }
+ }
 }

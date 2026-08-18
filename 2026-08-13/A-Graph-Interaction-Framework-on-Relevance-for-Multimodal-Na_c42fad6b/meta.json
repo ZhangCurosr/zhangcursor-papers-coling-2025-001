@@ -4,5 +4,30 @@
  "title": "A-Graph-Interaction-Framework-on-Relevance-for-Multimodal-Na",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 07:10:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c300f02e-ca1c-495a-9175-9571446cc4e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c300f02e-ca1c-495a-9175-9571446cc4e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态命名实体识别",
+    "多图像MNER",
+    "人类偏好强化学习",
+    "图Transformer",
+    "相关性判别",
+    "跨模态交互"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "首次将RLHF引入多模态NER的相关性判断，替代不可靠的CLIP相似度方法",
+    "构建基于相关性的异构图并用图Transformer实现多图间信息交互",
+    "每层独立Prompt设计实现细粒度跨模态信息交互"
+   ],
+   "benchmarks": [
+    "MNER-MI",
+    "MNER-MI-Plus"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "CodeJudge-Eval-Can-Large-Language-Models-be-Good-Judges-in-C",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30827089-2bff-4a4e-ac62-7ac87372366d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30827089-2bff-4a4e-ac62-7ac87372366d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "code understanding",
+    "LLM evaluation",
+    "benchmark",
+    "code judging",
+    "large language models",
+    "APPS"
+   ],
+   "field": "代码理解与评测基准",
+   "innovations": [
+    "以判题视角构建细粒度代码理解基准 CJ-Eval，区分 CE/WA/RE/TLE/AC 九类错误组合",
+    "提出 Easy/Medium/Hard 三级标签体系以覆盖从粗粒度到细粒度的评测需求",
+    "揭示 LLM 代码生成能力与其代码评审能力之间的显著鸿沟"
+   ],
+   "benchmarks": [
+    "CJ-Eval",
+    "APPS",
+    "HumanEval",
+    "MBPP"
+   ]
+  }
+ }
 }

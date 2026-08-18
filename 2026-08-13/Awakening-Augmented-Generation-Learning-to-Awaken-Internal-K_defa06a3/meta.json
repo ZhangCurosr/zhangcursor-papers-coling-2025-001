@@ -4,5 +4,32 @@
  "title": "Awakening-Augmented-Generation-Learning-to-Awaken-Internal-K",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 07:10:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bbb466f8-1415-42d3-b700-6ddca5ddf87d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bbb466f8-1415-42d3-b700-6ddca5ddf87d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:00:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识增强",
+    "大语言模型",
+    "问答",
+    "RAG",
+    "超网络",
+    "参数高效微调",
+    "知识蒸馏"
+   ],
+   "field": "开放域问答",
+   "innovations": [
+    "提出双唤醒框架（显式+隐式）无需外部资源激活LLM内部知识",
+    "文本条件超网络动态生成问题特定LoRA适配器",
+    "长上下文蒸馏实现对齐隐藏状态和注意力以弥补无外部知识"
+   ],
+   "benchmarks": [
+    "NaturalQuestions",
+    "TriviaQA",
+    "WebQuestions"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Aligning-Retrieval-with-Reader-Needs-Reader-Centered-Passage",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/914992a1-a091-4486-a55e-14c7cf07f0fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/914992a1-a091-4486-a55e-14c7cf07f0fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放域问答",
+    "段落选择",
+    "检索增强生成",
+    "读者中心重排",
+    "段落聚类",
+    "证据一致性"
+   ],
+   "field": "开放域问答与检索增强生成",
+   "innovations": [
+    "提出基于reader预测概率分布的段落重排方法（RCPR），以1-p(unknown)度量段落有用性",
+    "设计基于预测答案聚类的段落一致性选择方法（RCPC），减少冲突证据",
+    "证明读者视角重排可与现有相似度/生成似然重排器（UPR/BGE）互补融合"
+   ],
+   "benchmarks": [
+    "Natural Questions",
+    "WebQuestions",
+    "TriviaQA"
+   ]
+  }
+ }
 }

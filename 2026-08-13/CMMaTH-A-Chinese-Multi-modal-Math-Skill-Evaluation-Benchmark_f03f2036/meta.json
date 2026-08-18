@@ -4,5 +4,30 @@
  "title": "CMMaTH-A-Chinese-Multi-modal-Math-Skill-Evaluation-Benchmark",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a8b03bc-e99c-4293-90f6-b6b1d824e0e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2a8b03bc-e99c-4293-90f6-b6b1d824e0e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大模型",
+    "数学推理",
+    "中文基准",
+    "自动化评测",
+    "知识图谱标注"
+   ],
+   "field": "多模态大模型评测",
+   "innovations": [
+    "提出CMMaTH：目前最大规模中文K12多模态数学基准，含784个细粒度知识点与14类视觉题型",
+    "设计GradeGPT：基于CL-JoC跨语言判断链的微调开源评测器，以96.1%准确率替代昂贵API评估",
+    "构建KSSR指标与细粒度错题分析体系，揭示商业模型与开源模型在中文多模态数学上的显著差距"
+   ],
+   "benchmarks": [
+    "CMMaTH",
+    "MathVista",
+    "CMMMU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Are-Your-Keywords-Like-My-Queries-A-Corpus-Wide-Evaluation-o",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:11:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a3fe7b4-54b7-4271-af89-979436c56a70.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6a3fe7b4-54b7-4271-af89-979436c56a70.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Keyword Extraction",
+    "Evaluation Metric",
+    "Google Trends",
+    "Information Retrieval",
+    "RAKE",
+    "KeyBERT",
+    "YAKE"
+   ],
+   "field": "关键词提取与评估",
+   "innovations": [
+    "提出基于真实搜索数据（Google Trends）的无标注KE评估框架",
+    "设计六项面向用户查询匹配度的新评估指标（NOUK/LRAP/Kendall/Spearman/NDCG/Cosine）",
+    "揭示RAKE在用户中心评估下优于深度学习模型KeyBERT"
+   ],
+   "benchmarks": [
+    "Google Trends UK Top25 Weekly Queries (2018-2022)",
+    "Facebook News Posts via CrowdTangle"
+   ]
+  }
+ }
 }

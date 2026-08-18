@@ -4,5 +4,31 @@
  "title": "AGCL-Aspect-Graph-Construction-and-Learning-for-Aspect-level",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-13 14:55:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bedd6912-4e51-4351-b188-d1bc769e2bb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bedd6912-4e51-4351-b188-d1bc769e2bb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "aspect-level sentiment classification",
+    "aspect graph",
+    "contrastive learning",
+    "knowledge-enhanced NLP",
+    "unseen aspect generalization",
+    "pre-trained language models"
+   ],
+   "field": "方面级情感分析",
+   "innovations": [
+    "以LLM自动构建领域方面图替代人工标注，解决未见方面知识对齐问题",
+    "提出AGL迭代学习框架实现图结构与方面表示的双向联合优化",
+    "引入动量更新机制平衡高频低频方面的领域知识积累"
+   ],
+   "benchmarks": [
+    "SemEval 2014 Task 4 Laptops",
+    "SemEval 2014 Task 4 Restaurants",
+    "Twitter"
+   ]
+  }
+ }
 }

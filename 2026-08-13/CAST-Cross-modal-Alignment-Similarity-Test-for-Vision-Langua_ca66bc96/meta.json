@@ -4,5 +4,29 @@
  "title": "CAST-Cross-modal-Alignment-Similarity-Test-for-Vision-Langua",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e08e9d2d-ed91-4c98-8714-7556c61f8496.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e08e9d2d-ed91-4c98-8714-7556c61f8496.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:00:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Self-consistency",
+    "Cross-modal Alignment",
+    "Hallucination Detection",
+    "Multimodal Evaluation"
+   ],
+   "field": "多模态大模型评估与对齐",
+   "innovations": [
+    "提出CAST两阶段自一致性评估框架，无需地面真实标注即可测量跨模态推理稳定性",
+    "发现RLAIF对齐训练未改善VLM跨模态一致性，LLaVA-1.5 RLAIF在所有配置下显著低于基线"
+   ],
+   "benchmarks": [
+    "DOCCI",
+    "MME",
+    "MMMU"
+   ]
+  }
+ }
 }

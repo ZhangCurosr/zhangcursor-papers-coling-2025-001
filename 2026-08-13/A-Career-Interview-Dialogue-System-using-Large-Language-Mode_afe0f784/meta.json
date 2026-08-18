@@ -4,5 +4,32 @@
  "title": "A-Career-Interview-Dialogue-System-using-Large-Language-Mode",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d1c47359-121a-4776-a17a-d85ecab9e0f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d1c47359-121a-4776-a17a-d85ecab9e0f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "动态槽位生成",
+    "溯因推理",
+    "对话系统",
+    "职业访谈",
+    "LLM",
+    "槽位填充",
+    "用户模拟器"
+   ],
+   "field": "对话系统与多轮对话",
+   "innovations": [
+    "将溯因推理（abduction）引入LLM驱动的动态槽位生成过程，实现从'记录信息'到'主动探索假设'的范式转变",
+    "面向护理职业访谈场景设计了自评问卷+动态访谈+报告生成的完整流水线，平衡结构化采集与个性化探索",
+    "基于Relevance Theory构建双维度（处理努力度+认知效果）对话自然度评估体系"
+   ],
+   "benchmarks": [
+    "16个护士persona用户模拟器对话集",
+    "50项check items信息收集基准",
+    "88人众包自然度评估"
+   ]
+  }
+ }
 }

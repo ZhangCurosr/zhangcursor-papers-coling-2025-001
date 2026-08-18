@@ -4,5 +4,30 @@
  "title": "AsymKV-Enabling-1-Bit-Quantization-of-KV-Cache-with-Layer-Wi",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:11:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d31c1966-01e2-4564-8b09-43fb8b1b1d5a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d31c1966-01e2-4564-8b09-43fb8b1b1d5a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:59:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "KV Cache量化",
+    "1-bit量化",
+    "非对称量化",
+    "LLM推理优化",
+    "层粒度量化",
+    "注意力误差传播"
+   ],
+   "field": "大语言模型推理压缩",
+   "innovations": [
+    "首次从理论上证明Key矩阵量化误差因query乘法和softmax被放大，导出attention output误差的闭式表达式",
+    "提出AsymKV框架，通过l_k/l_v双层参数实现K/V非对称逐层量化，支持极端1-bit压缩"
+   ],
+   "benchmarks": [
+    "CoQA",
+    "TruthfulQA",
+    "LongBench (TriviaQA, TREC, SAMSum, RepoBench-P, Qasper)"
+   ]
+  }
+ }
 }

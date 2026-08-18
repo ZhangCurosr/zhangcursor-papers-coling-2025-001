@@ -4,5 +4,32 @@
  "title": "CausalScore-An-Automatic-Reference-Free-Metric-for-Assessing",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:11:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0cef2a5-e509-4237-815c-07574f40bd08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0cef2a5-e509-4237-815c-07574f40bd08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dialogue evaluation",
+    "reference-free metric",
+    "causal strength",
+    "conditional independence",
+    "CausalScore",
+    "CGDIALOG+",
+    "automatic NLG evaluation"
+   ],
+   "field": "开放域对话系统自动评估",
+   "innovations": [
+    "将无条件与条件依赖分类器概率加权平均量化为因果强度分数 CausalScore",
+    "设计带位置与置信度约束的增量自训练策略提升 CI 分类器性能",
+    "提出 12 小时快速跨域适配的 CGDIALOG+ 标注流程"
+   ],
+   "benchmarks": [
+    "ESConv",
+    "MSC",
+    "DREAM"
+   ]
+  }
+ }
 }

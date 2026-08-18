@@ -4,5 +4,34 @@
  "title": "Cross-lingual-Text-Classification-Transfer-The-Case-of-Ukrai",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ab1cbf2a-a237-4258-b21f-3f29fb98187b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ab1cbf2a-a237-4258-b21f-3f29fb98187b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言迁移",
+    "乌克兰语",
+    "文本分类",
+    "LLM提示",
+    "Adapter",
+    "低资源语言",
+    "毒性分类",
+    "形式度分类",
+    "NLI"
+   ],
+   "field": "低资源语言NLP",
+   "innovations": [
+    "首次系统评估四种跨语言文本分类迁移方法在乌克兰语上的效果",
+    "构建首批乌克兰语毒性/形式度/NLI分类数据集与半自然测试集",
+    "针对不同任务给出差异化最优迁移方案建议"
+   ],
+   "benchmarks": [
+    "Jigsaw Toxic Comment",
+    "GYAFC",
+    "SNLI"
+   ]
+  }
+ }
 }

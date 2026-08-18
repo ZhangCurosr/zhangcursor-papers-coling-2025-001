@@ -4,5 +4,30 @@
  "title": "Clear-Up-Confusion-Iterative-Differential-Generation-for-Fin",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 06:52:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fc3d151-e4a7-41f1-b0a6-f184186df471.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fc3d151-e4a7-41f1-b0a6-f184186df471.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "细粒度意图检测",
+    "数据增强",
+    "大语言模型",
+    "零样本学习",
+    "知识蒸馏",
+    "对比反馈"
+   ],
+   "field": "低资源自然语言理解",
+   "innovations": [
+    "差分引导生成：识别混淆类别对并生成判别性样本",
+    "对比反馈迭代：构建正负样本闭环实现LLM-SLM双向知识蒸馏"
+   ],
+   "benchmarks": [
+    "BANKING77",
+    "HWU64",
+    "CLINC150"
+   ]
+  }
+ }
 }

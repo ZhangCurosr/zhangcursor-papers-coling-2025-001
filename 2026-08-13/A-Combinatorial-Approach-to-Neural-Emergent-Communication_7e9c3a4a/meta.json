@@ -4,5 +4,29 @@
  "title": "A-Combinatorial-Approach-to-Neural-Emergent-Communication",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c2ff356-9b85-4c4d-9569-03d12c0fec4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c2ff356-9b85-4c4d-9569-03d12c0fec4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "emergent communication",
+    "Lewis signaling game",
+    "symbolic complexity",
+    "combinatorial algorithm",
+    "referential game",
+    "compositionality"
+   ],
+   "field": "多智能体协同通信与涌现语言",
+   "innovations": [
+    "提出 SMS 算法量化 Lewis 信号游戏分类任务的符号复杂度 min(|M|)",
+    "建立训练数据采样陷阱的理论概率模型解释低复杂度语言成因",
+    "通过 min(|M|) 受控采样合成不同复杂度的数据集并实证验证数据复杂度对有效语言长度的促进作用"
+   ],
+   "benchmarks": [
+    "合成 attribute-value 数据集 (|A|=20, |V|=4)"
+   ]
+  }
+ }
 }

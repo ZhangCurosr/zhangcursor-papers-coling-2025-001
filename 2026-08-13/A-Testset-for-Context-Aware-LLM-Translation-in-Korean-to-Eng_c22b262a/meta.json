@@ -4,5 +4,10 @@
  "title": "A-Testset-for-Context-Aware-LLM-Translation-in-Korean-to-Eng",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/491c38b8-9c22-40b4-9393-06b4881c417d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/491c38b8-9c22-40b4-9393-06b4881c417d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:53",
+  "chunks": 1
+ }
 }

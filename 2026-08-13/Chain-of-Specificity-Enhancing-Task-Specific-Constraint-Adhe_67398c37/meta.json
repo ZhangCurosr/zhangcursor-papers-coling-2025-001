@@ -4,5 +4,32 @@
  "title": "Chain-of-Specificity-Enhancing-Task-Specific-Constraint-Adhe",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:11:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2089b3ae-7092-47a7-b6a2-0c2aee9a480f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2089b3ae-7092-47a7-b6a2-0c2aee9a480f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:01:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Chain-of-Specificity",
+    "约束遵循",
+    "大语言模型",
+    "指令微调",
+    "CoS",
+    "ConstrainSPEC",
+    "蒸馏"
+   ],
+   "field": "指令遵循与约束生成",
+   "innovations": [
+    "提出CoS方法，以具体约束为推理链线索迭代激发LLM内部知识",
+    "构建ConstrainSPEC数据集，平均含2.32个复杂约束，优于现有数据集",
+    "通过CoS响应蒸馏显著提升小模型约束遵循能力（Beat Rate达90.0%）"
+   ],
+   "benchmarks": [
+    "CoScript",
+    "EXPLORE-INSTRUCT",
+    "ConstrainSPEC"
+   ]
+  }
+ }
 }

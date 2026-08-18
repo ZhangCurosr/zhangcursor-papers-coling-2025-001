@@ -4,5 +4,32 @@
  "title": "Cognitive-Biases-Task-Complexity-and-Result-Interpretability",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/01e39ed3-23c4-4f12-b890-00dcb9308e48.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/01e39ed3-23c4-4f12-b890-00dcb9308e48.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:02:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "认知偏差",
+    "大语言模型",
+    "任务复杂度",
+    "首因偏差",
+    "多数类偏差",
+    "常见词偏差",
+    "模型鲁棒性"
+   ],
+   "field": "LLM 评估与安全性",
+   "innovations": [
+    "首次系统操控任务复杂度并测量其对四种认知偏差的非均匀影响",
+    "揭示常见词偏差与位置偏差的混淆机制并纠正既往归因",
+    "全面对比 Base 与 Instructed 模型在多偏差下的鲁棒性差异"
+   ],
+   "benchmarks": [
+    "ARC-Easy/Challenge",
+    "SST-2",
+    "DBPedia"
+   ]
+  }
+ }
 }

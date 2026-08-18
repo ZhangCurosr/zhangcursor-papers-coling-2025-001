@@ -4,5 +4,33 @@
  "title": "A-Compliance-Checking-Framework-Based-on-Retrieval-Augmented",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bb78c807-a0fb-422f-97d0-95bc6f630179.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bb78c807-a0fb-422f-97d0-95bc6f630179.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:58:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "合规检查",
+    "RAG",
+    "事件图",
+    "道义命题",
+    "法律NLP",
+    "知识图谱",
+    "大语言模型"
+   ],
+   "field": "法律与自然语言处理交叉",
+   "innovations": [
+    "提出静态-动态-计算三层RAG合规检查框架，融合结构化知识图谱与大模型推理",
+    "设计以道义命题为核心的无监督事件图抽取算法，用于结构化表达法规知识",
+    "展示跨领域ICL迁移能力，仅需源域少量标注即可迁移至新领域"
+   ],
+   "benchmarks": [
+    "EU2UK",
+    "GDPR-13",
+    "CONTRACT",
+    "CSSCD"
+   ]
+  }
+ }
 }
