@@ -4,5 +4,30 @@
  "title": "Enhancing-Arabic-NLP-Tasks-through-Character-Level-Models-an",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/440dc0d3-086a-4baa-b929-32ee8eb1482f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/440dc0d3-086a-4baa-b929-32ee8eb1482f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:40:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Arabic NLP",
+    "character-level models",
+    "data augmentation",
+    "text classification",
+    "CANINE",
+    "vowel deletion",
+    "style transfer"
+   ],
+   "field": "低资源语言NLP",
+   "innovations": [
+    "首次将数据增强与字符级模型结合用于阿拉伯语NLP",
+    "提出阿拉伯语专用元音删除增强方法",
+    "提出阿拉伯语句式风格迁移增强方法"
+   ],
+   "benchmarks": [
+    "Saudi Privacy Policy Dataset"
+   ]
+  }
+ }
 }

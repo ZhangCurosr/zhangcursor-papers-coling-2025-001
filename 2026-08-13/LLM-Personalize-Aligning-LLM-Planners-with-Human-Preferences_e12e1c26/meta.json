@@ -4,5 +4,28 @@
  "title": "LLM-Personalize-Aligning-LLM-Planners-with-Human-Preferences",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c5dbbf2-61d1-4dda-a171-240f2490308c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c5dbbf2-61d1-4dda-a171-240f2490308c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:41:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM planning",
+    "personalization",
+    "reinforced self-training",
+    "household robotics",
+    "scene graph",
+    "imitation learning"
+   ],
+   "field": "具身AI与机器人规划",
+   "innovations": [
+    "结合模仿学习bootstrap与迭代ReST的LLM规划器个性化对齐方法",
+    "动态场景图+迭代重规划解决多房间部分可观测长视界规划"
+   ],
+   "benchmarks": [
+    "Housekeep"
+   ]
+  }
+ }
 }

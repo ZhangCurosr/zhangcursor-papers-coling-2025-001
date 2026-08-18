@@ -4,5 +4,10 @@
  "title": "LLaMA-E-Empowering-E-commerce-Authoring-with-Object-Interlea",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:10:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b620357f-ea18-4f3d-add4-696a6dd890ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b620357f-ea18-4f3d-add4-696a6dd890ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:42:18",
+  "chunks": 1
+ }
 }

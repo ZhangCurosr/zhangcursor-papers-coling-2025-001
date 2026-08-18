@@ -4,5 +4,31 @@
  "title": "Enhancing-Long-range-Dependency-with-State-Space-Model-and-K",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/981b3e9b-7c69-43f5-a6b0-f44518f49922.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/981b3e9b-7c69-43f5-a6b0-f44518f49922.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:40:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Aspect-Based Sentiment Analysis",
+    "State Space Model",
+    "Mamba",
+    "Kolmogorov-Arnold Networks",
+    "Graph Convolutional Network",
+    "Long-range Dependency"
+   ],
+   "field": "细粒度情感分析",
+   "innovations": [
+    "首次将选择性状态空间模型Mamba引入ABSA任务以增强长距离依赖建模",
+    "提出基于KAN的门控融合机制自适应集成语法与语义特征",
+    "构建MambaFormer模块协同处理长短距离依赖"
+   ],
+   "benchmarks": [
+    "Restaurant14",
+    "Laptop14",
+    "Twitter"
+   ]
+  }
+ }
 }

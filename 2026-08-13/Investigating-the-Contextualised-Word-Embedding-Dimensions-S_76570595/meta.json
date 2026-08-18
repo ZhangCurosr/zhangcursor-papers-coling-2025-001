@@ -4,5 +4,35 @@
  "title": "Investigating-the-Contextualised-Word-Embedding-Dimensions-S",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2b46fd22-bbb2-4be7-9c8c-6a3df177d934.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2b46fd22-bbb2-4be7-9c8c-6a3df177d934.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:41:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contextual semantic change detection",
+    "temporal semantic change detection",
+    "contextualized word embeddings",
+    "XL-LEXEME",
+    "PCA",
+    "ICA",
+    "dimensionality analysis",
+    "cross-lingual NLP"
+   ],
+   "field": "词汇语义变化检测与可解释表示学习",
+   "innovations": [
+    "发现PCA在Top 10%成分内比ICA更能高效捕获上下文与时间语义变化轴",
+    "揭示微调使稀疏的语义变化专用维度均匀分散至全维度",
+    "证明仅用5%-10% PCA降维轴即可达到或超越全量原始维度的SCD性能"
+   ],
+   "benchmarks": [
+    "WiC",
+    "XL-WiC",
+    "MCL-WiC",
+    "AM²iCo",
+    "SemEval-2020 Task 1"
+   ]
+  }
+ }
 }

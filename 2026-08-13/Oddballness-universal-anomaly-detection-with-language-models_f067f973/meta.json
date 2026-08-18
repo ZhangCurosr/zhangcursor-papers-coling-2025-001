@@ -4,5 +4,30 @@
  "title": "Oddballness-universal-anomaly-detection-with-language-models",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ee346b6-0d2f-44de-ad05-61d4c7729c17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ee346b6-0d2f-44de-ad05-61d4c7729c17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:45:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "oddballness",
+    "anomaly detection",
+    "language models",
+    "grammatical error detection",
+    "unsupervised",
+    "probability distribution"
+   ],
+   "field": "无监督异常检测与自然语言处理",
+   "innovations": [
+    "提出满足5条公理的oddballness度量，将异常检测从绝对概率转化为相对分布位置",
+    "证明oddballness与probability of probability互补，建立新解释框架",
+    "仅用单一阈值实现完全无监督跨语言异常span定位，优于概率与topK基线"
+   ],
+   "benchmarks": [
+    "FCE",
+    "MultiGED-2023"
+   ]
+  }
+ }
 }

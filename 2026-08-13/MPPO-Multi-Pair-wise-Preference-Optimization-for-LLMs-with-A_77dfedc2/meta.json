@@ -4,5 +4,31 @@
  "title": "MPPO-Multi-Pair-wise-Preference-Optimization-for-LLMs-with-A",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0bc3174e-b432-4276-862c-4b5bb8da465c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0bc3174e-b432-4276-862c-4b5bb8da465c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Preference Optimization",
+    "Large Language Models",
+    "Direct Preference Optimization",
+    "Reward Modeling",
+    "Multi-sample Learning",
+    "Llama3"
+   ],
+   "field": "大语言模型对齐与偏好优化",
+   "innovations": [
+    "提出MPPO算法，用响应平均似然度直接拟合奖励函数，无需参考模型与KL正则",
+    "系统对比Point/Pair/List三种范式，证明Pair-MNM在多响应稀疏场景下最优",
+    "在UltraFeedback上训练，MT-Bench超越DPO/ORPO/SimPO，Arena-Hard仅次于SimPO"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "Arena-Hard",
+    "UltraFeedback"
+   ]
+  }
+ }
 }

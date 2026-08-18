@@ -4,5 +4,30 @@
  "title": "Language-Models-over-Large-Scale-Knowledge-Base-on-Capacity",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c8de35a6-9601-4b3c-a9f7-1d6b8a5323c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c8de35a6-9601-4b3c-a9f7-1d6b8a5323c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:42:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识基础",
+    "语言模型",
+    "知识注入",
+    "重要性采样",
+    "推理能力",
+    "长尾知识"
+   ],
+   "field": "语言模型知识表示与推理",
+   "innovations": [
+    "提出基于实例损失的重要性采样算法以高效注入大规模KB",
+    "系统评估LMs作为KB在存储、灵活访问和推理三方面的能力",
+    "揭示模型规模扩大对长尾知识记忆和推理能力提升的边际效益递减"
+   ],
+   "benchmarks": [
+    "PopQA",
+    "Veseli missing facts dataset"
+   ]
+  }
+ }
 }

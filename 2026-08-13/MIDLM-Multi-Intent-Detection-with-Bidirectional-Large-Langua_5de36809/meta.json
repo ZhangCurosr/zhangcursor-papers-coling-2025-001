@@ -4,5 +4,35 @@
  "title": "MIDLM-Multi-Intent-Detection-with-Bidirectional-Large-Langua",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5bf9a8db-c7b0-47fa-ba91-31d543ecfc9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5bf9a8db-c7b0-47fa-ba91-31d543ecfc9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-Intent Detection",
+    "Large Language Models",
+    "Bidirectional Attention",
+    "Post-training",
+    "Multi-label Classification"
+   ],
+   "field": "任务型对话理解",
+   "innovations": [
+    "提出首个将自回归LLM通过post-training适配为双向信息流的MID框架",
+    "设计意图数量检测与Top-K选择联合训练范式",
+    "在8个数据集上验证LLM对MID任务的SOTA性能与跨分布迁移能力"
+   ],
+   "benchmarks": [
+    "BlendATIS",
+    "MixATIS",
+    "BlendSNIPS",
+    "MixSNIPS",
+    "BlendBanking77",
+    "MixBanking77",
+    "BlendCLINC150",
+    "MixCLINC150"
+   ]
+  }
+ }
 }

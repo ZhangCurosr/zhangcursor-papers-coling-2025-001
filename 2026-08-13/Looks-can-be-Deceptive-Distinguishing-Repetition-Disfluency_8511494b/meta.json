@@ -4,5 +4,28 @@
  "title": "Looks-can-be-Deceptive-Distinguishing-Repetition-Disfluency",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd2753e6-7300-4bfc-bfdf-9ed2f163045c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd2753e6-7300-4bfc-bfdf-9ed2f163045c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech disfluency",
+    "reduplication",
+    "repetition",
+    "sequence labeling",
+    "multilingual NLP",
+    "Indian languages"
+   ],
+   "field": "多语言语音处理与自然语言处理交叉",
+   "innovations": [
+    "提出基于RiR语言学结构的新颖建模方法以区分形态重复与不流畅重复",
+    "发布首个面向印地语、泰卢固语和马拉地语的词级红uplicated/repetition多语言数据集IndicRedRep"
+   ],
+   "benchmarks": [
+    "IndicRedRep (自建数据集)"
+   ]
+  }
+ }
 }

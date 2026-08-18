@@ -4,5 +4,30 @@
  "title": "Multi-View-Incongruity-Learning-for-Multimodal-Sarcasm-Detec",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63c91b78-e9c8-4cf9-94c8-883acb10808d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63c91b78-e9c8-4cf9-94c8-883acb10808d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态讽刺检测",
+    "虚假相关性",
+    "不一致学习",
+    "对比学习",
+    "多视角融合",
+    "数据增强"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "三视角不一致学习（token-patch/entity-object/sentiment）联合建模讽刺线索",
+    "双向数据增强+对比学习缓解模态偏置和虚假相关性",
+    "基于Beta分布置信度的多视角融合与SPMSD对抗测试集"
+   ],
+   "benchmarks": [
+    "MMSD",
+    "SPMSD"
+   ]
+  }
+ }
 }

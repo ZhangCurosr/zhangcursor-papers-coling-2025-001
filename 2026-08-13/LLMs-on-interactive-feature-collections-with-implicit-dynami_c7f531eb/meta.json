@@ -4,5 +4,33 @@
  "title": "LLMs-on-interactive-feature-collections-with-implicit-dynami",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:10:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/45502568-cb48-4054-8269-9fa2f7aad1d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/45502568-cb48-4054-8269-9fa2f7aad1d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:41:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Language Models",
+    "prompt engineering",
+    "interactive decision-making",
+    "Chain-of-Thought",
+    "medical diagnosis",
+    "business consulting",
+    "20-Questions game",
+    "dynamic decision strategy"
+   ],
+   "field": "LLM提示工程与交互式推理",
+   "innovations": [
+    "提出DDS隐式提示框架，在单个提示内结合初始决策树构建与动态假设迭代优化，无需外部算法即可引导LLM高效进行交互式特征收集",
+    "将MECE结构化思维与五路动态导航机制（深入/横向/回溯/重构/停止）引入LLM提示设计",
+    "在20-Q游戏、商业咨询和医疗诊断三场景系统验证，DDS在提问效率和诊断准确性上均优于CoT/PS及各类消融变体"
+   ],
+   "benchmarks": [
+    "20-Questions game (16 candidates, 30 games)",
+    "Kellogg business consulting cases (3 cases, 12 criteria)",
+    "Medical diagnosis cases - chest pain (5 cases, 6 clinical criteria)"
+   ]
+  }
+ }
 }

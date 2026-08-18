@@ -4,5 +4,10 @@
  "title": "Large-Language-Models-are-Good-Annotators-for-Type-aware-Dat",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5791ec54-0ca5-490a-9280-c0dd39f45809.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5791ec54-0ca5-490a-9280-c0dd39f45809.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:42:36",
+  "chunks": 1
+ }
 }

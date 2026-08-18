@@ -4,5 +4,37 @@
  "title": "Linguistic-Features-Extracted-by-GPT-4-Improve-Alzheimer-s-D",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77e47b43-b27b-4685-93c8-b5f73152e7d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/77e47b43-b27b-4685-93c8-b5f73152e7d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "阿尔茨海默病",
+    "GPT-4",
+    "语音分析",
+    "语言特征提取",
+    "随机森林",
+    "AU-ROC",
+    "Spontaneous Speech",
+    "Computational Linguistics"
+   ],
+   "field": "计算语言学/医疗AI交叉",
+   "innovations": [
+    "首次用GPT-4从自发语音转录中提取5个高阶语义特征并融入AD检测流水线",
+    "系统验证GPT特征的临床意义（组间差异+Cohen's d+人类一致性三重验证）",
+    "证明GPT特征与传统语言特征正交互补（最大相关系数0.55），融合后AU-ROC提升至0.931"
+   ],
+   "benchmarks": [
+    "ADReSS",
+    "AU-ROC",
+    "Mann-Whitney U Test",
+    "Cohen's d",
+    "SHAP",
+    "ICC",
+    "Word-Error-Rate"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "Intention-Analysis-Makes-LLMs-A-Good-Jailbreak-Defender",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f6a3ac37-2b49-4f54-82b1-8fe36ec286d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f6a3ac37-2b49-4f54-82b1-8fe36ec286d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:41:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak defense",
+    "LLM safety",
+    "intention analysis",
+    "inference-only defense",
+    "adversarial robustness",
+    "prompt engineering"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "提出两阶段零样本意图分析（IA）推理防御方法，无需训练即可显著降低复杂越狱攻击成功率",
+    "从注意力机制角度揭示IA通过抑制LLM对越狱prompt的注意力来增强安全性的机理",
+    "证明IA对意图识别错误具有鲁棒性，且可与现有防御方法叠加使用"
+   ],
+   "benchmarks": [
+    "DAN",
+    "SAP200",
+    "DeepInception",
+    "GCG/AdvBench",
+    "AutoDAN",
+    "MultiJail",
+    "CipherChat",
+    "AlpacaEval",
+    "MMLU",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

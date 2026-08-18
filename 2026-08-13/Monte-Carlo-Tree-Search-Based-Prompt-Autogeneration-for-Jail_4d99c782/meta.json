@@ -4,5 +4,30 @@
  "title": "Monte-Carlo-Tree-Search-Based-Prompt-Autogeneration-for-Jail",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/846feb95-8e71-440e-aff9-9b75927a450f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/846feb95-8e71-440e-aff9-9b75927a450f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "jailbreak attack",
+    "MCTS",
+    "prompt generation",
+    "LLM safety",
+    "black-box attack",
+    "adversarial suffix"
+   ],
+   "field": "大语言模型安全与对抗攻击",
+   "innovations": [
+    "基于MCTS的提示自动生成框架MPA，通过树搜索策略提升越狱攻击效率",
+    "设计结构化动作空间（10种策略）与先验置信概率P(s,a)引导搜索",
+    "在黑盒设置下实现跨模型高ASR（97%-100%）与低ANA的平衡"
+   ],
+   "benchmarks": [
+    "AdvBench Subset",
+    "MaliciousInstruct"
+   ]
+  }
+ }
 }

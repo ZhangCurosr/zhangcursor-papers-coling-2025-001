@@ -4,5 +4,29 @@
  "title": "Learning-to-Refuse-Towards-Mitigating-Privacy-Risks-in-LLMs",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2178898b-12c2-4523-88c8-ae179dbc2d7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2178898b-12c2-4523-88c8-ae179dbc2d7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:42:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Machine Unlearning",
+    "Privacy Protection",
+    "LLM",
+    "Name-Aware Refusal",
+    "Data Augmentation",
+    "Personal Data"
+   ],
+   "field": "大模型隐私安全",
+   "innovations": [
+    "提出姓名感知的拒绝回答机制，帮助模型精准识别需保护的个体",
+    "对称式对比数据增强扩展遗忘集与保留集分布，提升泛化能力",
+    "首个面向真实人物隐私保护的 MU 评估基准 RETURN"
+   ],
+   "benchmarks": [
+    "RETURN"
+   ]
+  }
+ }
 }

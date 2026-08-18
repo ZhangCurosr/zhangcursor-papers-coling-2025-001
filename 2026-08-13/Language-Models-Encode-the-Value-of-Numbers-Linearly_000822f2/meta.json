@@ -4,5 +4,30 @@
  "title": "Language-Models-Encode-the-Value-of-Numbers-Linearly",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63238af9-7961-444b-bd51-db07857cb4b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/63238af9-7961-444b-bd51-db07857cb4b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:42:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "线性探针",
+    "数字编码",
+    "可解释性",
+    "激活补丁",
+    "因果干预",
+    "大语言模型"
+   ],
+   "field": "语言模型可解释性与内部机制",
+   "innovations": [
+    "证明 LLM 以线性方式编码数字且集中于中间层",
+    "通过线性向量干预建立编码数字与输出的因果关联，成功率达 73%"
+   ],
+   "benchmarks": [
+    "合成加法数据集（2-10位数字）",
+    "LLaMA-2-7B/13B",
+    "Mistral-7B"
+   ]
+  }
+ }
 }

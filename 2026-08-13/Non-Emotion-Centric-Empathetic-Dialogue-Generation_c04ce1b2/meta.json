@@ -4,5 +4,28 @@
  "title": "Non-Emotion-Centric-Empathetic-Dialogue-Generation",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/78126671-cb28-4ba4-b62a-8cb87a2d3466.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/78126671-cb28-4ba4-b62a-8cb87a2d3466.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:45:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "共情对话生成",
+    "对比学习",
+    "常识知识",
+    "非情绪中心",
+    "开放域对话"
+   ],
+   "field": "共情对话生成",
+   "innovations": [
+    "用对比学习替代显式情绪识别以规避级联错误",
+    "双通道实体+社会常识注入框架",
+    "四类负样本联合训练提升多样性与 informativeness"
+   ],
+   "benchmarks": [
+    "EMPATHETICDIALOGUES"
+   ]
+  }
+ }
 }

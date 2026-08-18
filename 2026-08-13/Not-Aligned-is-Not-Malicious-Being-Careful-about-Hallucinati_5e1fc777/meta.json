@@ -4,5 +4,32 @@
  "title": "Not-Aligned-is-Not-Malicious-Being-Careful-about-Hallucinati",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7595e903-bbd9-4f0d-9ec9-58a367e4fb41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7595e903-bbd9-4f0d-9ec9-58a367e4fb41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:45:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全",
+    "越狱评估",
+    "幻觉检测",
+    "红队测试",
+    "AI安全基准",
+    "jailbreak evaluation",
+    "hallucination"
+   ],
+   "field": "大语言模型安全评估",
+   "innovations": [
+    "提出三阶段六评估器的BABYBLUE框架，区分越狱输出中的幻觉与真正有害内容",
+    "构建增强数据集，为代码/化学类行为提供沙箱执行环境与专家参考知识",
+    "揭示现有越狱基准的高假阳性率问题，通过精确评估将ASR大幅降低"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "AdvBench",
+    "BABYBLUE"
+   ]
+  }
+ }
 }

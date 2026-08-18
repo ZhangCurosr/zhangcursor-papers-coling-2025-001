@@ -4,5 +4,31 @@
  "title": "MiMoTable-A-Multi-scale-Spreadsheet-Benchmark-with-Meta-Oper",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9026d6f5-ee2f-4fab-80a9-d3ac87b3f6b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9026d6f5-ee2f-4fab-80a9-d3ac87b3f6b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "table reasoning",
+    "benchmark",
+    "large language models",
+    "spreadsheet",
+    "meta operations",
+    "difficulty evaluation"
+   ],
+   "field": "表格推理与基准评测",
+   "innovations": [
+    "提出多尺度真实电子表格基准MiMoTable（428表格/1719题，7领域中英双语）",
+    "定义六类元操作（Lookup/Edit/Calculate/Compare/Visualize/Reasoning）及复合难度评分公式",
+    "首次用统一元操作标准跨benchmark量化难度并验证性能-难度单调性"
+   ],
+   "benchmarks": [
+    "MiMoTable",
+    "WikiTableQuestions",
+    "WikiSQL"
+   ]
+  }
+ }
 }

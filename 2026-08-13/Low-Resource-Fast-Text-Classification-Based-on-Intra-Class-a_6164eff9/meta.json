@@ -4,5 +4,37 @@
  "title": "Low-Resource-Fast-Text-Classification-Based-on-Intra-Class-a",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/834bd8f9-fc1f-46cb-af74-f3252e5464e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/834bd8f9-fc1f-46cb-af74-f3252e5464e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本分类",
+    "低资源学习",
+    "压缩距离",
+    "少样本分类",
+    "无参数模型",
+    "归一化压缩距离"
+   ],
+   "field": "低资源文本分类",
+   "innovations": [
+    "提出多压缩器列表结构以精细刻画类内规律，并引入集中推理模块剔除冗余数据",
+    "基于NCD与KNN的无参数分类决策机制，无需预训练与参数学习",
+    "在9个跨语言基准上实现精度与速度的双重优化，OOD少样本场景显著优于gzip"
+   ],
+   "benchmarks": [
+    "R8",
+    "R52",
+    "Ohsumed",
+    "20News",
+    "AGnews",
+    "kirnews",
+    "kinnews",
+    "SwahiliNews",
+    "SogouNews"
+   ]
+  }
+ }
 }

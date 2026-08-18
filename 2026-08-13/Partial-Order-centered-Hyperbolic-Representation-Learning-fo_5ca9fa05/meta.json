@@ -4,5 +4,31 @@
  "title": "Partial-Order-centered-Hyperbolic-Representation-Learning-fo",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2f92594-0bbc-4391-8ac6-f156db4b9aa9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c2f92594-0bbc-4391-8ac6-f156db4b9aa9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:45:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot relation extraction",
+    "hyperbolic representation learning",
+    "partial order",
+    "Lorentz model",
+    "contrastive learning",
+    "prototype network"
+   ],
+   "field": "少样本关系抽取",
+   "innovations": [
+    "推导 Lorentzian 余弦相似度用于双曲空间方向感知表示对齐",
+    "扩展 Lorentzian 蕴含锥到任意负曲率建模关系-实例偏序",
+    "提出端到端 PO-HRL 框架统一对齐与偏序约束"
+   ],
+   "benchmarks": [
+    "FewRel 1.0",
+    "FewRel 2.0",
+    "Semeval"
+   ]
+  }
+ }
 }

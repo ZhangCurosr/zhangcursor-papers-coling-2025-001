@@ -4,5 +4,30 @@
  "title": "MCS-SQL-Leveraging-Multiple-Prompts-and-Multiple-Choice-Sele",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e0e9477-058a-4413-94f4-72e2a1281186.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e0e9477-058a-4413-94f4-72e2a1281186.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "In-Context Learning",
+    "Prompt Engineering",
+    "Schema Linking",
+    "Large Language Models",
+    "Multiple-Choice Selection"
+   ],
+   "field": "Text-to-SQL与自然语言接口",
+   "innovations": [
+    "多提示Schema Linking：通过随机打乱顺序生成多个prompt并取并集，显著提升链接召回率",
+    "双策略动态Few-Shot选择：融合问题相似度和masked问题相似度生成多个SQL生成prompt",
+    "置信度过滤+LLM多选决策：先按执行一致性过滤候选再用LLM选择，优于多数投票"
+   ],
+   "benchmarks": [
+    "BIRD",
+    "Spider"
+   ]
+  }
+ }
 }

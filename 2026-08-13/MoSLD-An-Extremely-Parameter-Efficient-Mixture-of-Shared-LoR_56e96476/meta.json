@@ -4,5 +4,35 @@
  "title": "MoSLD-An-Extremely-Parameter-Efficient-Mixture-of-Shared-LoR",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9db4aec-e374-4e87-a4c0-7dc98def3f4b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9db4aec-e374-4e87-a4c0-7dc98def3f4b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA",
+    "Mixture of Experts",
+    "Parameter-Efficient Fine-tuning",
+    "Multi-Task Learning",
+    "Model Sharing",
+    "Dropout"
+   ],
+   "field": "大语言模型参数高效微调",
+   "innovations": [
+    "共享LoRA上投影矩阵A以解耦跨任务通用特征与特定特征",
+    "在共享A矩阵上引入dropout策略缓解过拟合与优化不平衡"
+   ],
+   "benchmarks": [
+    "OBQA",
+    "CSQA",
+    "Race",
+    "MCTest",
+    "Arc-e",
+    "Arc-c",
+    "MMLU",
+    "GSM8K"
+   ]
+  }
+ }
 }

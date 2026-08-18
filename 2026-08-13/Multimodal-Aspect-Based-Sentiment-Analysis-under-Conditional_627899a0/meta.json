@@ -4,5 +4,30 @@
  "title": "Multimodal-Aspect-Based-Sentiment-Analysis-under-Conditional",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fd771b2-24dd-4c16-9ba0-ee783e04ff7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fd771b2-24dd-4c16-9ba0-ee783e04ff7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态方面级情感分析",
+    "条件关系检测",
+    "视觉对象定位",
+    "多模态 BART",
+    "JMASA",
+    "图文不对齐"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "提出 CORSA 框架，显式建模图文条件关系以解决非相关图文干扰问题",
+    "设计 CRD+VOL 两阶段模块化架构，先过滤无关视觉再定位精确区域",
+    "自动标注方案结合 UNINEXT 与 YOLOv8 构建 C-MABSA 数据集"
+   ],
+   "benchmarks": [
+    "Twitter-15",
+    "Twitter-17"
+   ]
+  }
+ }
 }

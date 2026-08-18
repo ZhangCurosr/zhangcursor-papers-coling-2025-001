@@ -4,5 +4,10 @@
  "title": "LogiGraph-Logical-Reasoning-with-Contrastive-Learning-and-Li",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 07:10:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d54919c4-0ba2-4e80-b944-c8cd049ac142.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d54919c4-0ba2-4e80-b944-c8cd049ac142.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:28",
+  "chunks": 1
+ }
 }

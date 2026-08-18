@@ -4,5 +4,32 @@
  "title": "Enhancing-Knowledge-Distillation-of-Large-Language-Models-th",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:11:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd962b5f-64e4-4025-8c7e-1d38adc29f4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bd962b5f-64e4-4025-8c7e-1d38adc29f4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:40:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识蒸馏",
+    "大语言模型",
+    "多模态分布",
+    "排序损失",
+    "模型压缩",
+    "Ranking Loss"
+   ],
+   "field": "大语言模型压缩与知识蒸馏",
+   "innovations": [
+    "提出基于Spearman秩相关系数的词级排序损失，优化师生模型top-k预测顺序一致性",
+    "实验验证多模态分布对齐对下游性能的关键作用，并提供CR/MOR评估指标",
+    "排序损失与现有多种蒸馏目标（KL/RKL/JSD/TVD/AKL）高度兼容，稳定提升性能"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "Dolly-15k",
+    "Xsum",
+    "SlimPajama"
+   ]
+  }
+ }
 }

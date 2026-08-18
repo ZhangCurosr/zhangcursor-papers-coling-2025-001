@@ -4,5 +4,33 @@
  "title": "Leveraging-Language-Models-for-Summarizing-Mental-State-Exam",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7db129e5-d5f4-4e5a-ad04-7ed03939e4fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7db129e5-d5f4-4e5a-ad04-7ed03939e4fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mental State Examination",
+    "Dialogue Summarization",
+    "Medical NLP",
+    "Fine-tuning",
+    "Pegasus",
+    "BART",
+    "Factuality"
+   ],
+   "field": "医疗对话摘要",
+   "innovations": [
+    "首个英语MSE摘要对话数据集（405对话/9720轮）及开源模型",
+    "系统评估5种预训练摘要模型在心理对话任务上的微调效果",
+    "证明轻量级模型（460M-568M）在CPU设备上可部署用于心理健康摘要"
+   ],
+   "benchmarks": [
+    "ROUGE-1/2/L",
+    "SummaC",
+    "D4",
+    "ESC"
+   ]
+  }
+ }
 }

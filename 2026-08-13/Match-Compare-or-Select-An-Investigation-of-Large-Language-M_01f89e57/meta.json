@@ -4,5 +4,33 @@
  "title": "Match-Compare-or-Select-An-Investigation-of-Large-Language-M",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85a46a62-3b3a-440a-b55b-ccc53e23431e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85a46a62-3b3a-440a-b55b-ccc53e23431e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "实体匹配",
+    "大语言模型",
+    "entity resolution",
+    "LLM prompting",
+    "record linkage"
+   ],
+   "field": "实体解析与自然语言处理交叉",
+   "innovations": [
+    "系统对比 matching/comparing/selecting 三种 LLM 实体匹配策略",
+    "提出 COMEM 组合框架实现效果与成本双重优化",
+    "揭示 selecting 策略的位置偏差问题及缓解方案"
+   ],
+   "benchmarks": [
+    "Abt-Buy",
+    "Amazon-Google",
+    "DBLP-ACM",
+    "DBLP-Scholar",
+    "IMDB-TMDB",
+    "Walmart-Amazon"
+   ]
+  }
+ }
 }

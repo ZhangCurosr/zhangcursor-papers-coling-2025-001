@@ -4,5 +4,33 @@
  "title": "Looking-at-the-Unseen-Effective-Sampling-of-Non-Related-Prop",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/10a218b2-dfc8-472d-bc1c-0855ac93d5d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/10a218b2-dfc8-472d-bc1c-0855ac93d5d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:43:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "argument mining",
+    "negative sampling",
+    "non-related propositions",
+    "cross-domain generalization",
+    "semantic similarity"
+   ],
+   "field": "论点挖掘与计算论证",
+   "innovations": [
+    "首次系统提出并比较基于上下文和语义相似度的非相关命题采样策略",
+    "揭示ID评估性能与跨域泛化能力之间的权衡关系，指出SCS策略对提升泛化更有效"
+   ],
+   "benchmarks": [
+    "ARIES benchmark",
+    "MTC",
+    "AAEC",
+    "ACSP",
+    "ABSTRCT",
+    "US2016",
+    "QT30"
+   ]
+  }
+ }
 }

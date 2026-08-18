@@ -4,5 +4,31 @@
  "title": "MLLM-I2W-Harnessing-Multimodal-Large-Language-Model-for-Zero",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2db741da-fcd3-4e54-8d51-3039eef30482.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2db741da-fcd3-4e54-8d51-3039eef30482.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Zero-Shot Composed Image Retrieval",
+    "Multimodal Large Language Model",
+    "Pseudo-word Mapping",
+    "Modality Gap",
+    "Uncertainty Modeling",
+    "Mixture of Experts"
+   ],
+   "field": "多模态检索与跨模态对齐",
+   "innovations": [
+    "基于MLLM的自适应主语词选择与文本增强编码模块",
+    "不确定性建模缓解图文模态鸿沟",
+    "原型学习与MOE映射网络联合提取深层融合特征"
+   ],
+   "benchmarks": [
+    "COCO",
+    "CIRR",
+    "Fashion-IQ"
+   ]
+  }
+ }
 }

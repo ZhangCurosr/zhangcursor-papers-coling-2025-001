@@ -4,5 +4,32 @@
  "title": "Multi-Graph-Co-Training-for-Capturing-User-Intent-in-Session",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:10:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec0b2a4e-1105-44a3-aeda-f56cf088c2e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ec0b2a4e-1105-44a3-aeda-f56cf088c2e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 18:44:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "会话推荐",
+    "图神经网络",
+    "对比学习",
+    "多视图学习",
+    "用户意图",
+    "频率加权图",
+    "最短路径图"
+   ],
+   "field": "会话推荐系统",
+   "innovations": [
+    "提出当前频率图、全局最短路径图和本地会话图的多视图协同框架",
+    "设计基于入度频率的加权会话图以保留序列信息",
+    "结合目标注意力与对比学习对齐多源会话表示"
+   ],
+   "benchmarks": [
+    "Tmall",
+    "RetailRocket",
+    "Diginetica"
+   ]
+  }
+ }
 }
