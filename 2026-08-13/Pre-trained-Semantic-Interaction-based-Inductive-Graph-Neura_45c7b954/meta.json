@@ -4,5 +4,10 @@
  "title": "Pre-trained-Semantic-Interaction-based-Inductive-Graph-Neura",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:55:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b782a17-ea97-45b6-b1bf-77e494a7e590.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b782a17-ea97-45b6-b1bf-77e494a7e590.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:06",
+  "chunks": 1
+ }
 }

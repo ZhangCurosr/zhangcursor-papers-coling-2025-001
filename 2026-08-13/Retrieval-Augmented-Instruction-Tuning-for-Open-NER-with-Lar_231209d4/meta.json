@@ -4,5 +4,36 @@
  "title": "Retrieval-Augmented-Instruction-Tuning-for-Open-NER-with-Lar",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4596f89d-ed8b-4760-a7d8-285c1e378ede.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4596f89d-ed8b-4760-a7d8-285c1e378ede.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "检索增强指令微调",
+    "开放命名实体识别",
+    "目标蒸馏",
+    "信息抽取",
+    "大语言模型",
+    "零样本学习"
+   ],
+   "field": "自然语言处理-信息抽取",
+   "innovations": [
+    "提出将检索增强融入指令微调训练阶段的RA-IT框架",
+    "系统分析训练与推理阶段不同检索策略的差异化影响",
+    "构建并发布面向中文开放NER的自动标注指令微调数据集Sky-NER"
+   ],
+   "benchmarks": [
+    "CrossNER",
+    "MIT-Movie/Restaurant",
+    "Ontonotes 4",
+    "MSRA",
+    "Weibo",
+    "Boson",
+    "ClueNER",
+    "CMeEE"
+   ]
+  }
+ }
 }

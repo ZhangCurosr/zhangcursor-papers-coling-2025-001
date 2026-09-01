@@ -4,5 +4,32 @@
  "title": "XFORMPARSER-A-Simple-and-Effective-Multimodal-Multilingual-S",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-13 14:54:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/87257489-69e3-4128-a2aa-73a186ac3f47.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/87257489-69e3-4128-a2aa-73a186ac3f47.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "表格解析",
+    "语义实体识别",
+    "关系抽取",
+    "多模态预训练",
+    "多语言文档理解",
+    "温升软标签",
+    "InDFormSFT"
+   ],
+   "field": "文档智能与信息提取",
+   "innovations": [
+    "联合 SER 与 RE 任务的统一多模态表格解析框架",
+    "温升软标签训练策略有效改善多标签分类收敛与泛化",
+    "构建中英双语多场景工业表格微调数据集 InDFormSFT"
+   ],
+   "benchmarks": [
+    "FUNSD",
+    "XFUND",
+    "InDFormSFT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Word-level-Cross-lingual-Structure-in-Large-Language-Models",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-13 14:54:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a537129-d4c7-41a6-9acb-9cfa409bd88f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7a537129-d4c7-41a6-9acb-9cfa409bd88f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:40:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-lingual structure",
+    "large language models",
+    "bilingual lexicon induction",
+    "word embedding alignment",
+    "low-resource languages",
+    "isomorphism"
+   ],
+   "field": "多语言大模型",
+   "innovations": [
+    "证明LLM隐藏层词级别跨语言同构性（WCS）",
+    "提出基于同构的数据增强方法（IDA）用于BLI任务"
+   ],
+   "benchmarks": [
+    "MUSE",
+    "Bilingual Lexicon Induction"
+   ]
+  }
+ }
 }

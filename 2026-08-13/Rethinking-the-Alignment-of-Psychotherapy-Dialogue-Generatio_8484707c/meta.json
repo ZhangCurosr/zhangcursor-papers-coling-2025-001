@@ -4,5 +4,31 @@
  "title": "Rethinking-the-Alignment-of-Psychotherapy-Dialogue-Generatio",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:11:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f087045-5fe4-4125-8747-22b6b1b49294.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f087045-5fe4-4125-8747-22b6b1b49294.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Motivational Interviewing",
+    "Dialogue Generation",
+    "Large Language Models",
+    "Chain-of-Thought",
+    "Psychotherapy",
+    "Controllable Generation",
+    "MI Strategy"
+   ],
+   "field": "治疗对话生成",
+   "innovations": [
+    "首次利用MI策略作为CoT推理步骤对齐LLM实现可控可解释的治疗对话生成",
+    "结合贝叶斯推断与双视角人类评估（专家+普通用户）全面验证策略对齐有效性",
+    "揭示策略对齐与用户共情感知之间的张力，为专业对话生成提供平衡视角"
+   ],
+   "benchmarks": [
+    "AnnoMI",
+    "BiMISC"
+   ]
+  }
+ }
 }

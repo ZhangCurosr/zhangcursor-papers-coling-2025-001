@@ -4,5 +4,32 @@
  "title": "Relation-Logical-Reasoning-and-Relation-aware-Entity-Encodin",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:10:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fdc499a5-825c-4f65-bf30-238407fa0b74.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fdc499a5-825c-4f65-bf30-238407fa0b74.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Temporal Knowledge Graph",
+    "Relation Logical Reasoning",
+    "Entity Encoding",
+    "Knowledge Graph Completion",
+    "Link Prediction"
+   ],
+   "field": "时序知识图谱推理",
+   "innovations": [
+    "提出关系逻辑推理模块，从实体对间关系推理路径学习不同关系在时序层面的潜在逻辑关联",
+    "设计关系感知实体编码模块，通过注意力机制学习时间特定的实体嵌入",
+    "采用乘积融合关系级与实体级贡献分，结合幂函数时间衰减实现外推预测"
+   ],
+   "benchmarks": [
+    "ICEWS14",
+    "ICEWS18",
+    "ICEWS0515",
+    "WIKI",
+    "YAGO"
+   ]
+  }
+ }
 }

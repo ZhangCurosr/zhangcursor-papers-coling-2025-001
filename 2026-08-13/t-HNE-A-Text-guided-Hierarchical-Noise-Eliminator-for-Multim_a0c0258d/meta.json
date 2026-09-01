@@ -4,5 +4,10 @@
  "title": "t-HNE-A-Text-guided-Hierarchical-Noise-Eliminator-for-Multim",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-13 14:54:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85a9cf68-c53d-4bde-b145-dcebc55b961d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/85a9cf68-c53d-4bde-b145-dcebc55b961d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:40:05",
+  "chunks": 1
+ }
 }

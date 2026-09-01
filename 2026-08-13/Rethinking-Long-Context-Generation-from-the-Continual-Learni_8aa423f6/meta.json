@@ -4,5 +4,31 @@
  "title": "Rethinking-Long-Context-Generation-from-the-Continual-Learni",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:11:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cd334d3a-834c-431d-ae5a-a1fb4979157a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cd334d3a-834c-431d-ae5a-a1fb4979157a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文生成",
+    "持续学习",
+    "大语言模型",
+    "TempLoRA",
+    "OGD",
+    "滑动窗口注意力"
+   ],
+   "field": "大语言模型长上下文处理",
+   "innovations": [
+    "提出持续学习视角下的长上下文生成统一受限优化框架",
+    "系统性类比 Memory-based/Parameter-based 方法在两类领域的对应关系",
+    "将 EWC/LwF/OGD 等持续学习策略首次融入 TempLoRA 并验证增益"
+   ],
+   "benchmarks": [
+    "PG19",
+    "GuoFeng",
+    "Llama-2-7B"
+   ]
+  }
+ }
 }

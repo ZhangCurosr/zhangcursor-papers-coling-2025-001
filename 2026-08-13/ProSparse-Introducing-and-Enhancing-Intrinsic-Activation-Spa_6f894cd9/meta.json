@@ -4,5 +4,38 @@
  "title": "ProSparse-Introducing-and-Enhancing-Intrinsic-Activation-Spa",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99b38f79-8d13-4590-84db-5bf5a13bc215.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/99b38f79-8d13-4590-84db-5bf5a13bc215.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "激活稀疏性",
+    "ReLUfication",
+    "大语言模型加速",
+    "L1正则化",
+    "模型压缩",
+    "推理加速"
+   ],
+   "field": "大语言模型推理效率优化",
+   "innovations": [
+    "提出渐进式稀疏正则化，通过正弦曲线平滑递增L1正则化因子以实现高稀疏度并保持性能",
+    "构建三步ReLUFication框架（激活函数替换+渐进稀疏正则化+阈值偏移），实现89%+内生生激活稀疏度",
+    "提供稀疏度与正则化因子的定量关系公式，实现稀疏度的可控调节"
+   ],
+   "benchmarks": [
+    "HumanEval",
+    "MBPP",
+    "MMLU",
+    "GSM8K",
+    "BBH",
+    "PIQA",
+    "HellaSwag",
+    "WinoGrande",
+    "BoolQ",
+    "TyDi QA"
+   ]
+  }
+ }
 }

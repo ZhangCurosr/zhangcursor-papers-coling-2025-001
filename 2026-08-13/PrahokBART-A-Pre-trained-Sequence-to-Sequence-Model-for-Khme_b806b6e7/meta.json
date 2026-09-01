@@ -4,5 +4,30 @@
  "title": "PrahokBART-A-Pre-trained-Sequence-to-Sequence-Model-for-Khme",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 07:11:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/911b20d0-c8fa-44c7-be90-40357d65ddb9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/911b20d0-c8fa-44c7-be90-40357d65ddb9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:38:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "预训练模型",
+    "高棉语",
+    "序列到序列",
+    "低资源语言",
+    "文本生成",
+    "机器翻译"
+   ],
+   "field": "低资源语言自然语言生成",
+   "innovations": [
+    "首个高棉语专用轻量级PS2S模型，参数量仅为mBART50的1/3",
+    "在预处理中集成归一化和分词模块，保留功能空格作为独立token",
+    "系统评估语言学模块对无词边界语言的NLG任务影响"
+   ],
+   "benchmarks": [
+    "ALT",
+    "Lr-sum"
+   ]
+  }
+ }
 }

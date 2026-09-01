@@ -4,5 +4,29 @@
  "title": "RoBGuard-Enhancing-LLMs-to-Assess-Risk-of-Bias-in-Clinical-T",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:10:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/66d383ea-81e2-41ff-b33b-2c0950b752c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/66d383ea-81e2-41ff-b33b-2c0950b752c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 15:39:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "偏倚风险评估",
+    "大语言模型",
+    "临床随机对照试验",
+    "多模态理解",
+    "多智能体协作"
+   ],
+   "field": "医疗人工智能",
+   "innovations": [
+    "医学知识注入的自适应问题重构机制",
+    "面向RCT的多模态文档解析与多专家协作评估框架",
+    "首个公开的RoB 2项目级与领域级评估数据集"
+   ],
+   "benchmarks": [
+    "RoB-Item Dataset",
+    "RoB-Domain Dataset"
+   ]
+  }
+ }
 }
