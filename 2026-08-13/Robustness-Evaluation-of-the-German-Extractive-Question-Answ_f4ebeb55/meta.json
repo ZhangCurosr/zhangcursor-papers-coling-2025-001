@@ -4,5 +4,28 @@
  "title": "Robustness-Evaluation-of-the-German-Extractive-Question-Answ",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1bdcdde-4394-4e99-bd65-6fc028449cca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1bdcdde-4394-4e99-bd65-6fc028449cca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:02:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "extractive question answering",
+    "robustness evaluation",
+    "German NLP",
+    "input perturbation",
+    "monolingual vs multilingual"
+   ],
+   "field": "多语言NLP鲁棒性评估",
+   "innovations": [
+    "首个面向德语抽取式QA的系统性鲁棒性评估框架，包含Umlaut替换等语言特有扰动",
+    "发现单语模型在字符级和词级扰动下比多语模型更具鲁棒性",
+    "提出基于分级惩罚的量化比较体系，将多类型扰动性能下降聚合为可横向比较的分数"
+   ],
+   "benchmarks": [
+    "GermanQuAD"
+   ]
+  }
+ }
 }

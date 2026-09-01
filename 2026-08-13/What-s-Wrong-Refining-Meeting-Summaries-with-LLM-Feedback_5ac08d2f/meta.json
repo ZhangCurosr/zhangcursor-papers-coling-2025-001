@@ -4,5 +4,10 @@
  "title": "What-s-Wrong-Refining-Meeting-Summaries-with-LLM-Feedback",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-13 14:54:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8f036b37-fd83-4bf9-ba61-93571854f8b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8f036b37-fd83-4bf9-ba61-93571854f8b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 20:03:09",
+  "chunks": 1
+ }
 }
