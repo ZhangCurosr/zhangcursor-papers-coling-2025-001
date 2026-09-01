@@ -4,5 +4,31 @@
  "title": "Towards-the-Machine-Translation-of-Scientific-Neologisms",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e791fb1-0326-40f1-8bc6-59509ee68551.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4e791fb1-0326-40f1-8bc6-59509ee68551.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:02:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "科学新造词",
+    "定义辅助翻译",
+    "上下文学习",
+    "形态学分析",
+    "多语言大语言模型",
+    "术语翻译"
+   ],
+   "field": "低资源机器翻译与术语学",
+   "innovations": [
+    "利用术语定义辅助LLM翻译科学新造词",
+    "基于同位类和词源模式的语言学动机ICL示例选择策略",
+    "系统分析形态分歧与BPE分词对新造词翻译的影响"
+   ],
+   "benchmarks": [
+    "FranceTerme",
+    "TERMIUM"
+   ]
+  }
+ }
 }

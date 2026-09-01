@@ -4,5 +4,28 @@
  "title": "T-MES-Trait-Aware-Mix-of-Experts-Representation-Learning-for",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-13 14:54:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b52e00d-7f2f-45c1-9782-2bc07294fd41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b52e00d-7f2f-45c1-9782-2bc07294fd41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:01:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动作文评分",
+    "多特征评分",
+    "混合专家",
+    "预训练语言模型",
+    "对比学习"
+   ],
+   "field": "自然语言处理-教育文本分析",
+   "innovations": [
+    "首个将MoE架构引入多特征作文评分，通过门控机制实现高效多任务表示学习",
+    "提出评分多样性正则化（MHS）、特征表示相关性正则化和特征相关性损失三种策略联合优化"
+   ],
+   "benchmarks": [
+    "ASAP/ASAP++",
+    "QWK"
+   ]
+  }
+ }
 }

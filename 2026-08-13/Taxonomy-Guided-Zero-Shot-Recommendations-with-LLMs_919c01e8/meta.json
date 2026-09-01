@@ -4,5 +4,29 @@
  "title": "Taxonomy-Guided-Zero-Shot-Recommendations-with-LLMs",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-13 14:54:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dcd7f348-9cfa-4710-ab3c-915dcac0a3bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dcd7f348-9cfa-4710-ab3c-915dcac0a3bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:00:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot recommendation",
+    "large language models",
+    "taxonomy",
+    "LLM prompting",
+    "recommender systems"
+   ],
+   "field": "LLM-based Recommendation",
+   "innovations": [
+    "提出 TAXREC 框架通过分类学字典将 LLM 内在知识注入零样本推荐",
+    "设计两阶段流程：一次性分类学构建 + LLM 特征匹配推荐",
+    "证明结构化规则匹配优于 BERT 语义相似度在分类学场景中"
+   ],
+   "benchmarks": [
+    "MovieLens-100k",
+    "BookCrossing"
+   ]
+  }
+ }
 }

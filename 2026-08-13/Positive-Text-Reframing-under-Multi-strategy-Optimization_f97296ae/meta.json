@@ -4,5 +4,30 @@
  "title": "Positive-Text-Reframing-under-Multi-strategy-Optimization",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1886f674-3c87-4ade-afb3-3386f5bb3004.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1886f674-3c87-4ade-afb3-3386f5bb3004.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:58:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "正向文本重构",
+    "多策略优化",
+    "强化学习",
+    "风格迁移",
+    "受控文本生成",
+    "重排序"
+   ],
+   "field": "受控自然语言生成",
+   "innovations": [
+    "双奖励强化学习训练机制（积极情感奖励+内容保留奖励）",
+    "贝叶斯分解的多维度重排序方法（策略一致性×文本相似度×流畅度）",
+    "辅助问句增强的策略分类模型（Strategy-BERT）"
+   ],
+   "benchmarks": [
+    "Positive Reframing Dataset (Ziems et al., 2022)",
+    "Reframe Strategy Classification Dataset"
+   ]
+  }
+ }
 }

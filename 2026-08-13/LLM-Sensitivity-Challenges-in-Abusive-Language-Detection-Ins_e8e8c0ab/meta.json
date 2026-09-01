@@ -4,5 +4,35 @@
  "title": "LLM-Sensitivity-Challenges-in-Abusive-Language-Detection-Ins",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cfb1529a-7477-4567-bcca-b9ea07bb1db0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cfb1529a-7477-4567-bcca-b9ea07bb1db0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:57:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Abusive Language Detection",
+    "LLM Bias",
+    "Zero-shot Evaluation",
+    "Instruction Tuning",
+    "RLHF",
+    "Prediction Bias",
+    "Prompt Engineering"
+   ],
+   "field": "大语言模型公平性与鲁棒性评估",
+   "innovations": [
+    "首次系统量化并对比了指令调优与RLHF模型在零样本辱骂检测中的相反预测偏差倾向",
+    "提出将预测偏差指标(bias/bias_agg)作为F1分数的互补评估，揭示高准确率下可能隐藏的分布不公",
+    "探索了通过提示词注入标签分布信息来校准RLHF模型过预测偏差的初步可行性"
+   ],
+   "benchmarks": [
+    "Civil-Comments",
+    "HASOC-2019",
+    "HatEval",
+    "OLID",
+    "Davidson-2017",
+    "HateXplain"
+   ]
+  }
+ }
 }

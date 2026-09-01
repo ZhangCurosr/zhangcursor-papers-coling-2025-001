@@ -4,5 +4,10 @@
  "title": "Trucidator-Document-level-Event-Factuality-Identification-vi",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:54:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49294d1b-5d65-4b93-b91f-51bd106c69f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49294d1b-5d65-4b93-b91f-51bd106c69f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:02:55",
+  "chunks": 1
+ }
 }

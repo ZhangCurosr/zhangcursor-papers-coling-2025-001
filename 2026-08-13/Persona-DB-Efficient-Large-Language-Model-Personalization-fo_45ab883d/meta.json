@@ -4,5 +4,10 @@
  "title": "Persona-DB-Efficient-Large-Language-Model-Personalization-fo",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e7f7978-f99a-4860-8fe3-d8e803659b51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0e7f7978-f99a-4860-8fe3-d8e803659b51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:58:18",
+  "chunks": 1
+ }
 }

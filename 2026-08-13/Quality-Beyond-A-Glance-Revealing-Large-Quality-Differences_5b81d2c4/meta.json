@@ -4,5 +4,31 @@
  "title": "Quality-Beyond-A-Glance-Revealing-Large-Quality-Differences",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f2382aa-2f0d-478c-b637-9fadab3c2813.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f2382aa-2f0d-478c-b637-9fadab3c2813.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:58:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "parallel corpus quality",
+    "web-crawled data",
+    "neural machine translation",
+    "data cleaning",
+    "low-resource MT",
+    "multilingual NLP"
+   ],
+   "field": "多语言机器翻译与平行语料质量评估",
+   "innovations": [
+    "提出三级分层标注方案系统评估网络爬取平行语料质量",
+    "通过控制数据量一致的NMT实验证实高质量语料优于大数据量低质语料",
+    "揭示MaCoCu双版本迭代的清洗效果与质量-规模权衡关系"
+   ],
+   "benchmarks": [
+    "FLoRes devtest",
+    "COMET",
+    "BLEU"
+   ]
+  }
+ }
 }

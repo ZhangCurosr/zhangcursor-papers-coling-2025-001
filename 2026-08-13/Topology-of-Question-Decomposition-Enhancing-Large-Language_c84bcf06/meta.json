@@ -4,5 +4,32 @@
  "title": "Topology-of-Question-Decomposition-Enhancing-Large-Language",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:54:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60dc3110-c206-4fda-8bd6-195b06242768.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/60dc3110-c206-4fda-8bd6-195b06242768.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:01:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "拓扑分解",
+    "自验证推理",
+    "检索增强生成",
+    "多跳问答",
+    "大语言模型"
+   ],
+   "field": "检索增强的大语言模型推理",
+   "innovations": [
+    "提出ToQD框架，结合拓扑图与自验证推理实现按需检索",
+    "自验证策略使LLM自主判断检索需求，减少冗余交互",
+    "零样本提示模板提升跨模型规模的鲁棒性"
+   ],
+   "benchmarks": [
+    "HotPotQA",
+    "MuSiQue",
+    "2WikiMultiHopQA",
+    "ELI5",
+    "MultiHop-RAG"
+   ]
+  }
+ }
 }

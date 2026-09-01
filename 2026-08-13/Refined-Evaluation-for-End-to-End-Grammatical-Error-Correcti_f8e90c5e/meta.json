@@ -4,5 +4,32 @@
  "title": "Refined-Evaluation-for-End-to-End-Grammatical-Error-Correcti",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa8bbca6-f964-465f-ab6f-36e34273f257.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fa8bbca6-f964-465f-ab6f-36e34273f257.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grammar Error Correction",
+    "Evaluation",
+    "Alignment",
+    "Multilingual",
+    "jp-errant",
+    "stanza",
+    "CoNLL"
+   ],
+   "field": "语法错误纠正评估",
+   "innovations": [
+    "基于对齐的联合预处理算法解决句子边界不匹配",
+    "将spaCy替换为stanza提升错误标注准确性",
+    "统一多语言GEC评估框架（中文、韩语）"
+   ],
+   "benchmarks": [
+    "W&I (Cambridge Write & Improve)",
+    "CGEC",
+    "Korean GEC"
+   ]
+  }
+ }
 }

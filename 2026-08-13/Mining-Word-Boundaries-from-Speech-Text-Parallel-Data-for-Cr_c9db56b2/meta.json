@@ -4,5 +4,30 @@
  "title": "Mining-Word-Boundaries-from-Speech-Text-Parallel-Data-for-Cr",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:10:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8f58fdbc-9a58-44df-8b20-3279ce11e1ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8f58fdbc-9a58-44df-8b20-3279ce11e1ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:57:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "中文分词",
+    "跨领域CWS",
+    "语音-文本对齐",
+    "自然标注挖掘",
+    "CTT策略",
+    "概率过滤"
+   ],
+   "field": "跨领域中文分词",
+   "innovations": [
+    "首次从语音停顿显式挖掘词边界用于CWS",
+    "提出基于边缘概率的停顿过滤策略",
+    "设计CTT策略有效利用部分标注数据"
+   ],
+   "benchmarks": [
+    "ZX",
+    "AISHELL2"
+   ]
+  }
+ }
 }

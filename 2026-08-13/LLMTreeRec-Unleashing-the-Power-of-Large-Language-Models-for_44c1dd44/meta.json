@@ -4,5 +4,30 @@
  "title": "LLMTreeRec-Unleashing-the-Power-of-Large-Language-Models-for",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19c17f01-6dde-4c6d-b03c-638adf690769.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19c17f01-6dde-4c6d-b03c-638adf690769.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:57:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "系统冷启动",
+    "大语言模型",
+    "推荐系统",
+    "零样本推荐",
+    "物品树",
+    "链式推荐"
+   ],
+   "field": "大语言模型推荐系统",
+   "innovations": [
+    "提出层次化物品树结构，将大规模候选物品组织为树以支持 LLM 零样本搜索",
+    "设计链式推荐策略，通过 DFS 逐级缩小候选集，降低 85% token 消耗",
+    "在系统冷启动设定下实现 SOTA，并在华为工业系统线上 A/B 测试中 NDCG@10 提升 25.64%"
+   ],
+   "benchmarks": [
+    "MIND",
+    "Amazon Reviews (Movies & TV)"
+   ]
+  }
+ }
 }

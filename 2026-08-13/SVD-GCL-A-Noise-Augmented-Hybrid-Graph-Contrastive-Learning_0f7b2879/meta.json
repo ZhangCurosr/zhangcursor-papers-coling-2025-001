@@ -4,5 +4,31 @@
  "title": "SVD-GCL-A-Noise-Augmented-Hybrid-Graph-Contrastive-Learning",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c75af8d-512a-4245-a53a-e7464a2689e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c75af8d-512a-4245-a53a-e7464a2689e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推荐系统",
+    "图对比学习",
+    "奇异值分解",
+    "数据增强",
+    "协同过滤",
+    "去噪扩散模型"
+   ],
+   "field": "图神经网络推荐系统",
+   "innovations": [
+    "引入TSVD进行特征降维去噪并初始化图嵌入",
+    "基于DDPM思想的单步变体噪声增强策略",
+    "简化跨层对比学习架构融合推荐与自监督目标"
+   ],
+   "benchmarks": [
+    "Yelp2018",
+    "Douban-Book",
+    "Amazon-Kindle"
+   ]
+  }
+ }
 }

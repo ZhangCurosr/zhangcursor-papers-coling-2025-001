@@ -4,5 +4,30 @@
  "title": "QuickLLaMA-Query-aware-Inference-Acceleration-for-Large-Lang",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:10:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba87e3f5-5ff6-442f-92d1-5f77d304d058.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba87e3f5-5ff6-442f-92d1-5f77d304d058.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:58:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文推理",
+    "无训练加速",
+    "查询感知检索",
+    "KV缓存管理",
+    "LLM推理优化"
+   ],
+   "field": "长上下文大语言模型推理加速",
+   "innovations": [
+    "提出无需训练的查询感知上下文检索机制Query-aware Context Lookup，使LLM在不同查询下动态选择相关记忆块",
+    "实现分层KV缓存+CPU Offloading策略，在单A800上实现100K+ token高效推理"
+   ],
+   "benchmarks": [
+    "∞-Bench",
+    "LongBench",
+    "Needle-in-a-Haystack",
+    "BABILong"
+   ]
+  }
+ }
 }

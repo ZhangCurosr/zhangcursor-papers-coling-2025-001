@@ -4,5 +4,38 @@
  "title": "Too-Late-to-Train-Too-Early-To-Use-A-Study-on-Necessity-and",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1542d90e-626c-4e17-bbf6-f9adf0e5590e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1542d90e-626c-4e17-bbf6-f9adf0e5590e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:01:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言",
+    "大型语言模型",
+    "孟加拉语",
+    "词元化",
+    "模型评估",
+    "自然语言生成",
+    "机器翻译",
+    "QLoRA微调"
+   ],
+   "field": "低资源语言大模型评估",
+   "innovations": [
+    "系统评估了LLaMA-3/GPT-4等英语LLM与微调BanglaT5在七类孟加拉语任务上的表现差异",
+    "揭示了英语LLM对孟加拉语脚本的过度分词问题及其对计算效率和生成性能的影响",
+    "指出了机器翻译合成数据集在改写任务中引入的文体偏差及其对自动化指标的干扰"
+   ],
+   "benchmarks": [
+    "BanglaNMT",
+    "XLSum",
+    "CrossSum",
+    "BanglaParaphrase",
+    "Squad-bn",
+    "BanglaRQA",
+    "BEnQA",
+    "XNLI-bn"
+   ]
+  }
+ }
 }

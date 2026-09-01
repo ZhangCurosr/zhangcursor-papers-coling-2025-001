@@ -4,5 +4,37 @@
  "title": "Towards-Faithful-Multi-step-Reasoning-through-Fine-Grained-C",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-13 14:54:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3e11ce6-4902-4591-91b5-9d90a6f8ef6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e3e11ce6-4902-4591-91b5-9d90a6f8ef6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:01:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多步推理蒸馏",
+    "归因推理",
+    "因果依赖",
+    "注意力正则化",
+    "大模型压缩",
+    "链式思维"
+   ],
+   "field": "大语言模型推理与蒸馏",
+   "innovations": [
+    "提出FARD框架，通过带引用的归因推理替代线性CoT进行蒸馏",
+    "利用推理步骤间因果依赖构建DAG，正则化小模型注意力模式",
+    "将推理抽象为前提提取、自问自答、答案总结三组件，增强跨域泛化"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "GSM-Plus",
+    "SVAMP",
+    "ASDiv",
+    "MultiArith",
+    "SingleEQ",
+    "StrategyQA",
+    "Logical Deduction",
+    "Date Understanding"
+   ]
+  }
+ }
 }

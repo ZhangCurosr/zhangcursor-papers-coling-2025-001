@@ -4,5 +4,33 @@
  "title": "TEEMIL-Towards-Educational-MCQ-Difficulty-Estimation-in-Indi",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-13 14:54:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8622276f-4fbb-4adc-bfb1-faa3890b59ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8622276f-4fbb-4adc-bfb1-faa3890b59ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MCQ难度估计",
+    "Indic语言",
+    "多语言NLP",
+    "教育AI",
+    "低资源语言",
+    "选择题生成"
+   ],
+   "field": "教育自然语言处理 / 多语言题目难度估计",
+   "innovations": [
+    "首个Hindi/Kannada MCQ难度估计数据集TEEMIL-H/K（共8900+题，含Bloom层级对齐）",
+    "系统性消融上下文/选项/NOTA三因素对Indic语言难度估计的影响，揭示去上下文在非直觉条件下提升性能",
+    "简化MSP框架适配低资源Indic语言MCQ自动生成，使用LLaMA-3-70B替代GPT-4降低资源开销"
+   ],
+   "benchmarks": [
+    "TEEMIL-H",
+    "TEEMIL-K",
+    "XLM-R",
+    "mBERT",
+    "IndicBERT"
+   ]
+  }
+ }
 }

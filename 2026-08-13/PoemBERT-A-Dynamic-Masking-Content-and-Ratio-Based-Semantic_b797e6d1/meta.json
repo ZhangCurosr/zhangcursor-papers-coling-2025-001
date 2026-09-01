@@ -4,5 +4,33 @@
  "title": "PoemBERT-A-Dynamic-Masking-Content-and-Ratio-Based-Semantic",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:12:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/df94ff8d-f785-45fa-94eb-e81e81f56316.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/df94ff8d-f785-45fa-94eb-e81e81f56316.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:58:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "古诗生成",
+    "掩码语言模型",
+    "中文古典文学NLP",
+    "动态掩码率",
+    "情感嵌入",
+    "拼音嵌入",
+    "领域预训练"
+   ],
+   "field": "中文古典文学自然语言处理",
+   "innovations": [
+    "提出基于PMI的字符重要性掩码策略，优先掩码语义关联强的实词提升训练效率",
+    "首次论证并提出动态掩码率衰减策略（椭圆/余弦/线性），早期高掩码率增强鲁棒表征后期低掩码率聚焦细粒度语义",
+    "融合情感嵌入与拼音嵌入解决古诗多音字和微妙情感表达问题"
+   ],
+   "benchmarks": [
+    "THU Chinese Classical Poetry Corpus",
+    "FSPC情感分类数据集",
+    "TCCP主题分类数据集",
+    "古诗文网诗译现代文数据集"
+   ]
+  }
+ }
 }

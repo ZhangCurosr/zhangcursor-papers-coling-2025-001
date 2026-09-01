@@ -4,5 +4,28 @@
  "title": "QABISAR-Query-Article-Bipartite-Interactions-for-Statutory-A",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 07:11:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f368cc6d-54e8-4b4f-9015-4624d3b83257.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f368cc6d-54e8-4b4f-9015-4624d3b83257.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:58:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Statutory Article Retrieval",
+    "Bipartite Graph",
+    "Knowledge Distillation",
+    "Graph Attention Network",
+    "Dense Retrieval",
+    "Legal NLP"
+   ],
+   "field": "法律信息检索",
+   "innovations": [
+    "构建query-article二分图并融合条文层级拓扑以捕捉多面交互",
+    "基于score分布的知识蒸馏实现图网络query表示向bi-encoder迁移"
+   ],
+   "benchmarks": [
+    "BSARD"
+   ]
+  }
+ }
 }

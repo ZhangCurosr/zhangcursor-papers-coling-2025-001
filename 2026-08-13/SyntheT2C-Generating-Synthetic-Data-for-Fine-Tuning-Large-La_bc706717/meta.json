@@ -4,5 +4,31 @@
  "title": "SyntheT2C-Generating-Synthetic-Data-for-Fine-Tuning-Large-La",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b4d1cc2-bd25-4666-9ecd-36bb0b5c1e8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b4d1cc2-bd25-4666-9ecd-36bb0b5c1e8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text2Cypher",
+    "合成数据",
+    "知识图谱",
+    "大语言模型",
+    "SFT",
+    "Cypher查询",
+    "图数据库"
+   ],
+   "field": "知识图谱与自然语言处理交叉",
+   "innovations": [
+    "提出双流水线（LLM提示+模板填充）合成 Question-Cypher 配对数据",
+    "设计五重自动验证器保障合成数据质量"
+   ],
+   "benchmarks": [
+    "MedT2C",
+    "LHY",
+    "Hetionet"
+   ]
+  }
+ }
 }

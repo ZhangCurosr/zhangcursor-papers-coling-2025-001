@@ -4,5 +4,31 @@
  "title": "RAM2C-A-Liberal-Arts-Educational-Chatbot-based-on-Retrieval",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75b6e6bd-becf-400d-ae6d-990c72017735.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/75b6e6bd-becf-400d-ae6d-990c72017735.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "教育对话",
+    "检索增强生成",
+    "多智能体协作",
+    "偏好对齐",
+    "大语言模型微调",
+    "人文教育",
+    "RAG",
+    "DPO"
+   ],
+   "field": "教育大语言模型",
+   "innovations": [
+    "提出RAM2C框架，通过组反思RAG与多角色多专家串行协作自动生成HTS合规教育对话数据",
+    "设计Group-Reflection检索增强机制，用多专家投票替代纯向量相似度筛选以提升教育文档参考价值",
+    "将多专家协作输出直接转化为DPO偏好训练数据，实现轻量模型的教育对话能力对齐"
+   ],
+   "benchmarks": [
+    "HTS人工评估（H/T/S三维，16名志愿者，满分100基准线50分）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "Reasoning-Oriented-and-Analogy-Based-Methods-for-Locating-an",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6800b284-a854-47f5-a460-eda4cb470bf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6800b284-a854-47f5-a460-eda4cb470bf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本推理",
+    "模型编辑",
+    "事件关系推理",
+    "可解释AI",
+    "知识迁移",
+    "类比学习"
+   ],
+   "field": "事件关系推理与模型编辑",
+   "innovations": [
+    "提出ROLE方法通过平均间接效应定位并编辑关键模块提升推理可解释性与性能",
+    "提出ABLE方法利用任务间类比关系高效迁移编辑信息实现零样本推理SOTA",
+    "揭示Flan-T5-large中事件关系推理的编码器MLP与解码器Cross-Attention协同机制"
+   ],
+   "benchmarks": [
+    "SCI-uni",
+    "ESL-uni",
+    "CTB-uni",
+    "ESC-intra",
+    "CTB-intra",
+    "MAVEN-intra-causal",
+    "CNC",
+    "ALT-uni",
+    "MAVEN-intra-subevent",
+    "HiEve"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Two-stage-Incomplete-Utterance-Rewriting-on-Editing-Operatio",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:54:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98c33786-88b7-4ff3-b94f-abc3aca80ac0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98c33786-88b7-4ff3-b94f-abc3aca80ac0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:02:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Incomplete Utterance Rewriting",
+    "Dialogue Understanding",
+    "Coreference Resolution",
+    "Ellipsis Resolution",
+    "Editing Operation",
+    "Two-stage Generation",
+    "Adversarial Perturbation"
+   ],
+   "field": "对话理解与文本生成",
+   "innovations": [
+    "以编辑操作为枢轴的两阶段IUR框架，显式区分插入与替换操作",
+    "针对编辑操作的对抗扰动策略，缓解二阶段训练的暴露偏差与级联错误",
+    "揭示BART预训练目标与IUR任务天然契合，为骨干模型选择提供依据"
+   ],
+   "benchmarks": [
+    "TASK",
+    "REWRITE",
+    "RES200K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "The-Dark-Side-of-Function-Calling-Pathways-to-Jailbreaking-L",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:54:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98f2e564-4d10-4046-ae4b-721e03dee27c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98f2e564-4d10-4046-ae4b-721e03dee27c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:00:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Function Calling",
+    "Jailbreak Attack",
+    "LLM Safety",
+    "Security Vulnerability",
+    "Adversarial Attack",
+    "AI Alignment"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "首次揭示Function Calling环节的参数生成漏洞并设计Jailbreak Function攻击方法",
+    "系统归因对齐差异、强制执行机制、安全过滤缺失三大根因",
+    "提出即插即用型防御性Prompt缓解策略并验证多位置效果差异"
+   ],
+   "benchmarks": [
+    "AdvBench (Chao et al. subset)",
+    "GPT-4 ASR Judge"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Uncertainty-Modelling-in-Under-Represented-Languages-with-Ba",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:54:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61fb100c-6447-4868-8642-4982ce3185c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/61fb100c-6447-4868-8642-4982ce3185c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:02:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "低资源语言",
+    "不确定性建模",
+    "深度高斯过程",
+    "贝叶斯方法",
+    "乌尔都语",
+    "普什图语"
+   ],
+   "field": "低资源语言NLP",
+   "innovations": [
+    "提出全贝叶斯深度高斯过程框架，将先验分布引入dGP超参数以量化低资源语言预测不确定性",
+    "系统评估零/五/十五/全数据场景下的不确定性建模与分类性能，填补乌尔都语和普什图语研究空白"
+   ],
+   "benchmarks": [
+    "RUED",
+    "UOD",
+    "POLD",
+    "BERT-base-Multilingual-uncased",
+    "XLM-RoBERTa-base",
+    "Multilingual-MiniLM"
+   ]
+  }
+ }
 }

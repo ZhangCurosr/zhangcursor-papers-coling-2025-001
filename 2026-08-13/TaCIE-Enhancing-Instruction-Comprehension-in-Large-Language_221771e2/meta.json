@@ -4,5 +4,30 @@
  "title": "TaCIE-Enhancing-Instruction-Comprehension-in-Large-Language",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-13 14:54:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/482ad8d0-a465-4bdd-98f7-19f3a0662ec5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/482ad8d0-a465-4bdd-98f7-19f3a0662ec5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:00:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction evolution",
+    "instruction tuning",
+    "task fusion",
+    "uncertainty sampling",
+    "large language models"
+   ],
+   "field": "指令微调与数据合成",
+   "innovations": [
+    "元素级指令分解与双轨演化策略",
+    "基于不确定性的自适应候选采样机制"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "IFEval",
+    "GSM8K",
+    "HumanEval"
+   ]
+  }
+ }
 }

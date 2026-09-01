@@ -4,5 +4,29 @@
  "title": "The-PRECOM-SM-Corpus-Gambling-in-Spanish-Social-Media",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-13 14:54:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/141fbb27-a929-4420-9f13-421667460716.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/141fbb27-a929-4420-9f13-421667460716.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:00:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "赌博沉迷检测",
+    "西班牙语NLP",
+    "社交媒体语料库",
+    "行为健康",
+    "早期风险预测",
+    "文本分类"
+   ],
+   "field": "计算社会科学与健康NLP",
+   "innovations": [
+    "构建首个西班牙语赌博沉迷社交媒体语料库PRECOM-SM，覆盖五种赌博类型和多平台数据",
+    "提出以交互频率(MF/LF)作为沉迷代理标签的分类框架，无需临床诊断即可开展检测研究",
+    "系统比较Textflow手工特征、BoW-TF.IDF和RoBERTa深度学习编码三类方法在赌博文本上的性能差异"
+   ],
+   "benchmarks": [
+    "eRisk/CLEF 赌博沉迷检测评测"
+   ]
+  }
+ }
 }

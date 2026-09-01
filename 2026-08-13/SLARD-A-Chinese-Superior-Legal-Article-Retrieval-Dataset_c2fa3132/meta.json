@@ -4,5 +4,32 @@
  "title": "SLARD-A-Chinese-Superior-Legal-Article-Retrieval-Dataset",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92309231-3534-42cf-be52-5a5121e5101f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/92309231-3534-42cf-be52-5a5121e5101f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上位法条款检索",
+    "法律信息检索",
+    "数据集构建",
+    "检索基线",
+    "大语言模型法律应用",
+    "中国法规"
+   ],
+   "field": "法律信息检索",
+   "innovations": [
+    "首次提出上位法条款检索任务并发布 SLARD 数据集",
+    "揭示现有检索方法与大模型在该任务上的性能瓶颈",
+    "按法律层级拆分候选集设置，量化分析检索难度来源"
+   ],
+   "benchmarks": [
+    "SLARD",
+    "R@1=47.19% (RetroMAE)",
+    "R@5=81.66%",
+    "MRR@5=61.18%"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Read-Before-Grounding-Scene-Knowledge-Visual-Grounding-via-M",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73f9cdc2-7893-43e6-b233-f118cd733553.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73f9cdc2-7893-43e6-b233-f118cd733553.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:59:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Grounding",
+    "Scene Knowledge Visual Grounding",
+    "SK-VG",
+    "Large Language Model",
+    "Zero-shot",
+    "Multi-modal",
+    "Text Compression"
+   ],
+   "field": "视觉语言定位",
+   "innovations": [
+    "提出ReadVG零样本即插即用方法，通过LLM多步解析将长场景知识转化为简洁视觉描述",
+    "两步解析架构（Reading Module + Visual Descriptor Generation）有效缓解长文本对多模态模型的负面影响",
+    "系统验证了文本长度对MLLM性能的显著影响，并提出可迁移的缓解策略"
+   ],
+   "benchmarks": [
+    "SK-VG"
+   ]
+  }
+ }
 }

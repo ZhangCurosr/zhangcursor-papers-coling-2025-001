@@ -4,5 +4,29 @@
  "title": "ToolEyes-Fine-Grained-Evaluation-for-Tool-Learning-Capabilit",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-13 14:54:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d933cfe-cbed-482f-b9e7-76f4a21c368c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d933cfe-cbed-482f-b9e7-76f4a21c368c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 12:01:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool learning",
+    "LLM evaluation",
+    "fine-grained evaluation",
+    "tool use",
+    "benchmark",
+    "agent evaluation"
+   ],
+   "field": "大语言模型工具学习能力评估",
+   "innovations": [
+    "提出五维能力评估体系（格式对齐/意图理解/行为规划/工具选择/答案组织）实现工具学习全流程细粒度评估",
+    "发现模型规模增大反而损害工具学习能力（对话冗余和转义字符幻觉）",
+    "构建含7个真实场景、568个工具的大规模评估基准ToolEyes"
+   ],
+   "benchmarks": [
+    "ToolEyes"
+   ]
+  }
+ }
 }
